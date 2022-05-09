@@ -3,6 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
       <module name="Fusion.app" target="1.8" />
+      <module name="Fusion.fusion-gradle-plugin" target="1.8" />
       <module name="Fusion.lib" target="1.8" />
       <module name="Trace.app" target="1.8" />
       <module name="Trace.lib" target="1.8" />

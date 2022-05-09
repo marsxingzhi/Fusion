@@ -1,4 +1,4 @@
-package com.mars.infra.trace
+package com.mars.infra.fusion
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
