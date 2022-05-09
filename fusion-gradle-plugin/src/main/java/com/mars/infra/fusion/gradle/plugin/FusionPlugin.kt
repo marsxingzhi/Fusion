@@ -1,5 +1,6 @@
 package com.mars.infra.fusion.gradle.plugin
 
+import com.android.build.gradle.AppExtension
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 
@@ -8,7 +9,9 @@ import org.gradle.api.Project
  */
 class FusionPlugin : Plugin<Project>{
 
-    override fun apply(target: Project) {
+    override fun apply(project: Project) {
         println("start FusionPlugin")
+        val appExtension = project.extensions.getByType(AppExtension::class.java)
+        appExtension.registerTransform(FusionTransform())
     }
 }
