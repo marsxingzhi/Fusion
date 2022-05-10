@@ -9,7 +9,13 @@ import com.mars.infra.fusion.annotations.Fusion
  * Created by Mars on 2022/5/9
  */
 @Fusion(target = AppCompatActivity::class)
-class FusionLogActivity: AppCompatActivity() {
+class FusionLogActivity : AppCompatActivity() {
+
+    private var name: String? = null
+    private var age = 18
+    private val tag = "FusionLogActivity"
+
+    var versionName: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,5 +30,13 @@ class FusionLogActivity: AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         Log.e("gy", "onResume invoke")
+    }
+
+    private fun execute() {
+
+    }
+
+    protected fun action() {
+
     }
 }
