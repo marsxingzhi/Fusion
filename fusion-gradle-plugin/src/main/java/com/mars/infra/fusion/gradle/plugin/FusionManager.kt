@@ -14,6 +14,16 @@ object FusionManager {
 
     var fusionNodeList = arrayListOf<FusionNode>()
 
+    fun filter(className: String): Boolean {
+        fusionNodeList.forEach { node ->
+            if (node.originClass == className) {
+                return true
+            }
+        }
+        return false
+    }
+
+
     // TODO 这里修改class，然后写入新的文件中，能够覆盖原来的吗？ 或者说怎么写入到临时文件中？
     //  又或者能不能省略这一步，将修改super class和组合这两个步骤合成一步？
     fun remapSuperName(transformInvocation: TransformInvocation) {

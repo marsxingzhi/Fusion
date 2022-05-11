@@ -32,10 +32,14 @@ class FusionTransform : Transform() {
             onPostTransform()
         }) { bytes: ByteArray ->
             val cr = ClassReader(bytes)
-            val cw = ClassWriter(cr, 0)
-            val rootClassVisitor = RemapClassVisitor(cw)
-            cr.accept(rootClassVisitor, ClassReader.SKIP_DEBUG or ClassReader.SKIP_FRAMES)
-            cw.toByteArray()
+            FusionManager.filter(cr.className).no {
+                val cw = ClassWriter(cr, 0)
+                val rootClassVisitor = RemapClassVisitor(cw)
+                cr.accept(rootClassVisitor, ClassReader.SKIP_DEBUG or ClassReader.SKIP_FRAMES)
+                cw.toByteArray()
+            }.otherwise {
+                null
+            }
         }
     }
 
