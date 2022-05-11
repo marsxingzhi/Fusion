@@ -12,6 +12,7 @@ import org.objectweb.asm.Opcodes
 class RemapClassVisitor(classVisitor: ClassVisitor) : ClassVisitor(Opcodes.ASM9, classVisitor) {
 
     private lateinit var originSuperName: String
+    private lateinit var remapSuperName: String
     private var needReMap = false
     private var fusionNode: FusionNode? = null
 
@@ -23,15 +24,19 @@ class RemapClassVisitor(classVisitor: ClassVisitor) : ClassVisitor(Opcodes.ASM9,
         superName: String?,
         interfaces: Array<out String>?
     ) {
+        // TODO 这里需要屏蔽@Fusion类
         FusionManager.fusionNodeList.forEach {
-            if (it.fusionData.target == superName) {
+            if (it.fusionData.target == superName
+                && name != it.remapClassName.internalName()) {  // cannot extend itself
                 needReMap = true
                 fusionNode = it
             }
         }
         if (needReMap) {
+            originSuperName = superName!!
             // com.mars.infra.generate.Fusion_androidx_appcompat_app_AppCompatActivity
-            super.visit(version, access, name, signature, "com/mars/infra/generate/${fusionNode!!.remapClassName}", interfaces)
+            remapSuperName = fusionNode!!.remapClassName.internalName()
+            super.visit(version, access, name, signature, remapSuperName, interfaces)
         } else {
             super.visit(version, access, name, signature, superName, interfaces)
         }
@@ -45,14 +50,18 @@ class RemapClassVisitor(classVisitor: ClassVisitor) : ClassVisitor(Opcodes.ASM9,
         exceptions: Array<out String>?
     ): MethodVisitor {
         val mv = super.visitMethod(access, name, descriptor, signature, exceptions)
-        if (name == "<init>") {
-            return RemapAdapter(mv)
+        if (needReMap && name == "<init>") {
+            return RemapAdapter(originSuperName, remapSuperName, mv)
         }
         return mv
     }
 }
 
-private class RemapAdapter(methodVisitor: MethodVisitor): MethodVisitor(Opcodes.ASM9, methodVisitor) {
+private class RemapAdapter(
+    private val originSuperName: String,
+    private val remapSuperName: String,
+    methodVisitor: MethodVisitor
+) : MethodVisitor(Opcodes.ASM9, methodVisitor) {
 
     override fun visitMethodInsn(
         opcode: Int,
@@ -61,6 +70,18 @@ private class RemapAdapter(methodVisitor: MethodVisitor): MethodVisitor(Opcodes.
         descriptor: String?,
         isInterface: Boolean
     ) {
-        super.visitMethodInsn(opcode, owner, name, descriptor, isInterface)
+        if (opcode == Opcodes.INVOKESPECIAL
+            && owner == originSuperName
+            && name == "<init>"
+            && descriptor == "()V"
+        ) {
+            super.visitMethodInsn(opcode, remapSuperName, name, descriptor, isInterface)
+        } else {
+            super.visitMethodInsn(opcode, owner, name, descriptor, isInterface)
+        }
     }
+}
+
+private fun String.internalName(): String {
+    return "com/mars/infra/generate/$this"
 }

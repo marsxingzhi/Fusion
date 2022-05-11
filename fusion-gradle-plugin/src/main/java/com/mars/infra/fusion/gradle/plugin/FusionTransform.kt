@@ -34,7 +34,7 @@ class FusionTransform : Transform() {
             val cr = ClassReader(bytes)
             val cw = ClassWriter(cr, 0)
             val rootClassVisitor = RemapClassVisitor(cw)
-            cr.accept(cw, ClassReader.SKIP_DEBUG or ClassReader.SKIP_FRAMES)
+            cr.accept(rootClassVisitor, ClassReader.SKIP_DEBUG or ClassReader.SKIP_FRAMES)
             cw.toByteArray()
         }
     }
