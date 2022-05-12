@@ -52,7 +52,12 @@ class FusionTransform : Transform() {
         FusionCollector.collectFusionAnnotationInfo(transformInvocation)
     }
 
-    // 生成新类添加到transforms目录下
+    /**
+     * 1. 生成新类添加到transforms目录里
+     * 2. 将Fusion类内容写入新类
+     *
+     * TODO 只针对一个类
+     */
     private fun onPostTransform(transformInvocation: TransformInvocation) {
         val types = setOf(QualifiedContent.DefaultContentType.CLASSES)
         val scopes = mutableSetOf(QualifiedContent.Scope.PROJECT)
@@ -65,7 +70,7 @@ class FusionTransform : Transform() {
         println("out = ${out.absolutePath}")
 
         // 创建class，写入out目录中
-        val file = File(out, "$GENERATE_PACKAGE_NAME/Fusion_AppCompatActivity.class")
+        val file = File(out, "$GENERATE_PACKAGE_NAME/Fusion_androidx_appcompat_app_AppCompatActivity.class")
         file.parentFile.mkdirs()
         if (!file.exists()) {
             file.createNewFile()
@@ -76,26 +81,48 @@ class FusionTransform : Transform() {
         val cn = ClassNode()
         cn.version = Opcodes.V1_8
         cn.access = Opcodes.ACC_SUPER or Opcodes.ACC_PUBLIC
-        cn.name = "$GENERATE_PACKAGE_NAME/Fusion_AppCompatActivity"
+        cn.name = "$GENERATE_PACKAGE_NAME/Fusion_androidx_appcompat_app_AppCompatActivity"
         cn.superName = "androidx/appcompat/app/AppCompatActivity/AppCompatActivity"
         cn.signature = null
 
-        val methodNode = MethodNode(0, "<init>", "()V", null, null)
-        cn.methods.add(methodNode)
-        val il = methodNode.instructions
-        il.add(VarInsnNode(Opcodes.ALOAD, 0))
-        il.add(
-            MethodInsnNode(
-                Opcodes.INVOKESPECIAL,
-                "androidx/appcompat/app/AppCompatActivity/AppCompatActivity",
-                "<init>",
-                "()V",
-                false
-            )
-        )
-        il.add(InsnNode(Opcodes.RETURN))
-        methodNode.maxStack = 1
-        methodNode.maxLocals = 1
+//        val methodNode = MethodNode(0, "<init>", "()V", null, null)
+//        cn.methods.add(methodNode)
+//        val il = methodNode.instructions
+//        il.add(VarInsnNode(Opcodes.ALOAD, 0))
+//        il.add(
+//            MethodInsnNode(
+//                Opcodes.INVOKESPECIAL,
+//                "androidx/appcompat/app/AppCompatActivity/AppCompatActivity",
+//                "<init>",
+//                "()V",
+//                false
+//            )
+//        )
+//        il.add(InsnNode(Opcodes.RETURN))
+//        methodNode.maxStack = 1
+//        methodNode.maxLocals = 1
+
+        // 只考虑一个的情况
+        val fusionNode = FusionManager.fusionNodeList[0]
+        fusionNode.originField.values.forEach {
+            cn.fields.add(it)
+        }
+        fusionNode.remapField.values.forEach {
+            cn.fields.add(it)
+        }
+        // TODO Fusion_androidx_appcompat_app_AppCompatActivity.super.onCreate(bundle);？？？
+        // MainActivity.super.onCreate(savedInstanceState); 怎么多了MainActivity？？？
+        fusionNode.originMethod.values.forEach {  // 所有的实例方法，都需要执行ALOAD_0指令，即this
+
+//            if (it.name == "onCreate" && it.instructions.size() > 0) {
+//                val temp = it.instructions[0]
+//                it.instructions.remove(temp)
+//            }
+            cn.methods.add(it)
+        }
+        fusionNode.remapMethod.values.forEach {
+            cn.methods.add(it)
+        }
 
         cn.accept(cw)
         file.writeBytes(cw.toByteArray())
