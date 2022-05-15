@@ -1,0 +1,1265 @@
+--------- beginning of main
+05-16 01:42:49.716  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.732  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.757   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:42:49.757   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:42:49.765  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.765   704   786 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:4.613957,dur:2167.34,max:2018.42,min:16.48  
+05-16 01:42:49.777 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:42:49.782  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.798  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.812 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:42:49.815  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.839   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:42:49.839   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:42:49.847  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.864  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.867 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:42:49.880  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.897  2686 29167 I chatty  : uid=10065(com.huawei.android.launcher) identical 1 line
+05-16 01:42:49.913  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.917 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:42:49.918 23396 23404 I bms_behavior: monitor interval count 516
+05-16 01:42:49.930  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:49.979  2686 29167 I chatty  : uid=10065(com.huawei.android.launcher) identical 3 lines
+05-16 01:42:50.011  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:50.042  2648  3523 I AppTypeRecogManager: Update app type name:com.mars.infra.trace type:65535
+05-16 01:42:50.043  2648  3523 I AppTypeRecogManager: Update app type by self. name:com.mars.infra.trace type:65535
+05-16 01:42:50.044  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:50.077  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:50.086  1008 29168 D keymaster_worker: Keystore begin
+05-16 01:42:50.087  1008 29168 D keymaster_worker: Keystore begin hidl
+05-16 01:42:50.087   586   586 I HisiKeyMaster: HisiKmBegin start
+05-16 01:42:50.087   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:50.099   586   586 I HisiKeyMaster: out_params_buffer_len = 32
+05-16 01:42:50.099   586   586 I HisiKeyMaster: HisiKmBegin success
+05-16 01:42:50.099  1008 29168 D keymaster_worker: Keystore begin hidl end
+05-16 01:42:50.100  1008 29168 D keymaster_worker: Keystore begin end
+05-16 01:42:50.104  1008 29169 D keymaster_worker: Keystore update
+05-16 01:42:50.104  1008 29169 D keymaster_worker: Keystore update hidl
+05-16 01:42:50.105   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:50.105   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:50.110  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:50.114   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:50.114  1008 29169 D keymaster_worker: Keystore update hidl end
+05-16 01:42:50.114  1008 29169 D keymaster_worker: Keystore update end
+05-16 01:42:50.116  1008 29170 D keymaster_worker: Keystore update
+05-16 01:42:50.117  1008 29170 D keymaster_worker: Keystore update hidl
+05-16 01:42:50.117   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:50.117   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:50.122   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:50.122  1008 29170 D keymaster_worker: Keystore update hidl end
+05-16 01:42:50.122  1008 29170 D keymaster_worker: Keystore update end
+05-16 01:42:50.124  1008 29171 D keymaster_worker: Keystore finish
+05-16 01:42:50.125  1008 29171 D keymaster_worker: Keystore finish hidl
+05-16 01:42:50.125   586   586 I HisiKeyMaster: HisiKmFinish start
+05-16 01:42:50.125   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:50.129   586   586 I HisiKeyMaster: output data size=16
+05-16 01:42:50.129   586   586 I HisiKeyMaster: HisiKmFinish success
+05-16 01:42:50.130  1008 29171 D keymaster_worker: Keystore finish hidl end
+05-16 01:42:50.130  1008 29171 D keymaster_worker: Keystore finish end
+05-16 01:42:50.133  1834 28844 I SecurityProfileDB: Write database file end
+05-16 01:42:50.142  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:50.157 26597 26998 I HiAdKit.DC.AppDataCollectionManager:  report third
+05-16 01:42:50.163 26597 26998 W fwkit_kims: [W/fwkit/fwkit_kims 26597:19713 KIMSServiceController.java:1062] Can't find the specific package.
+05-16 01:42:50.167 26597 26998 I NetworkKit_CountryCodeBean: pps-msg-queue|null|com.huawei.hms.framework.network.grs.local.model.CountryCodeBean|getVendorCountryCode|35|countryCode by ro.hw.country is: cn
+05-16 01:42:50.167 26597 26998 I NetworkKit_CountryCodeBean: pps-msg-queue|null|com.huawei.hms.framework.network.grs.local.model.CountryCodeBean|init|15|get issue_country code from VENDOR_COUNTRY
+05-16 01:42:50.176 26597 26998 I HiAdKit.DC.SystemUtil:  process: com.huawei.hwid.core
+05-16 01:42:50.184  1834  1985 I DeviceIdentifiers: udid has been read success, return!
+--------- beginning of system
+05-16 01:42:50.186  1834  1985 D HwConnectivityServiceEx: set 10060 wlan0 value false
+05-16 01:42:50.187 26597 26998 I HiAdKit.DC.xl:  multicard device
+05-16 01:42:50.197  2648  3523 D ApplistMgr: handle apps optimize changed
+05-16 01:42:50.199  2648  3523 I ApplistMgr: mNeverOptimizeApps : [com.huawei.localBackup, com.huawei.appmarket]
+05-16 01:42:50.199  1834  2411 W ActivityManager: Sending non-protected broadcast com.huawei.android.APPSTARTUP_CHANGED from system 1834:system/1000 pkg android
+05-16 01:42:50.200  2648  3523 I ApplistMgr: mNeverOptimizeHideApps: [com.huawei.hwid]
+05-16 01:42:50.200 26597 26998 I HiAdKit.DC.SystemUtil:  process: com.huawei.hwid.core
+05-16 01:42:50.201  2648  3523 I ApplistMgr: mAlwaysOptimizeApps : []
+05-16 01:42:50.202  4835  4835 I PushLog110108302: [main-1]action is com.huawei.android.APPSTARTUP_CHANGED
+05-16 01:42:50.202  2648  3523 I ApplistMgr: mSmartOptimizeApps : [com.huawei.hifolder, com.quark.browser, com.huawei.android.tips, cn.richinfo.automail, com.huawei.mirror, com.petal.litegames, com.rocketx, com.huawei.android.totemweather, com.huawei.videoeditor, com.bytedance.horae, com.xingin.xhs, com.huawei.smarthome, com.cmic.mmnes, com.bstar.intl, com.huawei.fans, com.huawei.tips, com.huawei.mycenter, com.huawei.calculator, com.wuba, a.bilibili.lib.router.example, com.mars.infra.mixin, com.huawei.gamebox, com.mars.infra.trace, com.huawei.email, com.huawei.lives, com.huawei.soundrecorder, com.bilibili.lib.faceless_sample, com.lwu.appbundledemo, com.microsoft.office.officehub, com.tencent.mtt, com.bytedance.demo, com.tencent.wework, com.hicloud.android.clone, com.kwai.koom.demo, com.huawei.educenter, com.ss.android.article.news, com.huawei.welinknow, com.mars.infra.relfect, com.ss.android.ugc.aweme, com.example.mydemo, com.tencent.mobileqq, com.android.localtransport, com.huawei.hwireader, com.iqiyi.qigsaw.sample, com.huawei.secoclient, com.huawei.himovie, com.huawei.meetime, com.huawei.compass, com.ximalaya.ting.android, com.larksuite.suite, cn.cj.pe, com.tencent.news, lab.galaxy.yahfa.demoApp, com.jingdong.app.mall, com.tmall.wireless, com.vmall.client, com.autonavi.minimap, com.huawei.ohos.health, com.bilibili.lib.spy.example, com.example.myapplication, com.af.audiodemo, com.mars.infra.lego, com.mars.infra.hacker, com.huawei.game.kitserver, com.taobao.taobao, com.bilibili.apm.sample, com.huawei.hbm, tv.danmaku.bili, com.eg.android.AlipayGphone, com.greenpoint.android.mc10086.activity, com.achievo.vipshop]
+05-16 01:42:50.203 26597 29079 I HiAdKit.DC.ADCP:  addAppDataCollectionToCache - cache valide time: 7200 expireTime: 1652204570203
+05-16 01:42:50.203  2648  3523 I AppFasManager: delay set fas when optimize changed , delay : 10000
+05-16 01:42:50.204  2648  3658 I ash_r   : request wkp pkgs: [com.huawei.localBackup, com.huawei.appmarket, com.huawei.hwid] reason: nerver_opt_apps
+05-16 01:42:50.208  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:42:50.210  4835  4835 I PushLog110108302: [main-1]dispatchIntent over
+05-16 01:42:50.239   994  1184 I dubaid  : [DubaiStorage.cpp] DoFlushEntriesBuffer# Flush all entries into database: /data/system_ce/0/dubai/dubai.db
+05-16 01:42:50.252  1094  6920 D AALLightSensor: oldLux=57 [SA:50 LA:49] newLux=57 (oriLux: 50)
+05-16 01:42:50.254   994  1184 I dubaid  : [DubaiStorage.cpp] DoFlushEntriesBuffer# Flush all entries into database: /data/system_ce/0/dubai/dubai.db
+05-16 01:42:50.340 29038 29077 I meassistant:br: Waiting for a blocking GC ProfileSaver
+05-16 01:42:50.372 29038 29077 I meassistant:br: WaitForGcToComplete blocked ProfileSaver on AddRemoveAppImageSpace for 32.165ms
+05-16 01:42:50.429  1834  2066 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.957) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+05-16 01:42:50.436  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -78, txBitrate: 26, rxBitrate: 27, frequency: 2452, UlDelay: 0, currentTxBytes: 444379109, currentTxPackets: 4538642, currentTxFailed: 0, currentRxBytes: 313009942, currentRxPackets: 7055480
+05-16 01:42:50.221  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:42:50.441  1834  2079 I ConnectivityService: notifyType CALLBACK_CAP_CHANGED for NetworkAgentInfo [WIFI () - 142]
+05-16 01:42:50.442  1834  2066 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@5f30e40
+05-16 01:42:50.443  1834  2077 D HwConnectivityServiceEx: set 10120 wlan0 value false
+05-16 01:42:50.443  1834  2092 D HwConnectivityServiceEx: set 1000 wlan0 value false
+05-16 01:42:50.443  1834  2163 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+05-16 01:42:50.444  1834  2077 D HwConnectivityServiceEx: set 10097 wlan0 value false
+05-16 01:42:50.444  1834  2077 D HwConnectivityServiceEx: set 10026 wlan0 value true
+05-16 01:42:50.444  1834  2077 I ConnectivityService: B uid 10026
+05-16 01:42:50.446  1834  2065 I QosMonitor: queryRtt: rttType = 3
+05-16 01:42:50.446  1834  2077 D HwConnectivityServiceEx: set 10024 wlan0 value false
+05-16 01:42:50.446  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:50.446  1834  2077 D HwConnectivityServiceEx: set 5514 wlan0 value false
+05-16 01:42:50.447  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+05-16 01:42:50.447  1834  2065 I QosMonitor: resetRtt: rttType = 3
+05-16 01:42:50.447  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:50.447  1834  2077 D HwConnectivityServiceEx: set 5513 wlan0 value false
+05-16 01:42:50.450  1834  2162 I HwWifiConnectivityMonitor: signal level changed: 3 --> 2, 802.11v = false
+05-16 01:42:50.451  2451  2748 I OllieMsgCenter: publishEvt=2130903260
+05-16 01:42:50.453  2451  3370 I Hicom_Monitor: notifyWifiRssiChanged, newRssi: -78
+05-16 01:42:50.453  2569  2846 I HotspotComponent: onWifiBroadcastReceived :android.net.wifi.RSSI_CHANGED
+05-16 01:42:50.454  2569  2846 I WifiStatController: not need report or sync
+05-16 01:42:50.455  1834  2163 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 9
+05-16 01:42:50.460  2451  2748 I PositionFence_PositionFenceManager: start position fence recognize! reason for 15
+05-16 01:42:50.464  1834  1985 D HwConnectivityServiceEx: set 10166 wlan0 value false
+05-16 01:42:50.470  2569  2812 I WifiProComponent: default event
+05-16 01:42:50.470  2569  2812 I HotspotComponent: handleEvent
+05-16 01:42:50.470  2569  2812 I HotspotComponent: handleEvent not handle the event:1128
+05-16 01:42:50.471  1834  1985 E WifiPermissionsUtil: getUidPermission is DENIED and permissionType android.permission.ACCESS_COARSE_LOCATIONuid 10166
+05-16 01:42:50.472  1834  1985 E WifiService: enforceCanAccessScanResults: hiding ssid and bssidUID 10166 has no location permission
+05-16 01:42:50.474  1834  1985 E WifiPermissionsUtil: getUidPermission is DENIED and permissionType android.permission.ACCESS_FINE_LOCATIONuid 10024
+05-16 01:42:50.474  1834  1985 E WifiService: enforceCanAccessScanResults: hiding ssid and bssidUID 10024 has no location permission
+05-16 01:42:50.481  1834  1985 E WifiPermissionsUtil: getUidPermission is DENIED and permissionType android.permission.ACCESS_COARSE_LOCATIONuid 10166
+05-16 01:42:50.481  1834  1985 E WifiService: enforceCanAccessScanResults: hiding ssid and bssidUID 10166 has no location permission
+05-16 01:42:50.488  1834  1985 I chatty  : uid=1000(system) Binder:1834_3 identical 1 line
+05-16 01:42:50.493  1834  1985 E WifiPermissionsUtil: getUidPermission is DENIED and permissionType android.permission.ACCESS_COARSE_LOCATIONuid 10166
+05-16 01:42:50.621  1834  9349 E WifiPermissionsUtil: getUidPermission is DENIED and permissionType android.permission.ACCESS_FINE_LOCATIONuid 10024
+05-16 01:42:50.488  1834  1985 I chatty  : uid=1000(system) Binder:1834_3 identical 1 line
+05-16 01:42:50.493  1834  1985 E WifiService: enforceCanAccessScanResults: hiding ssid and bssidUID 10166 has no location permission
+05-16 01:42:50.621  1834  9349 E WifiService: enforceCanAccessScanResults: hiding ssid and bssidUID 10024 has no location permission
+05-16 01:42:50.625  1834  1985 E WifiPermissionsUtil: getUidPermission is DENIED and permissionType android.permission.ACCESS_FINE_LOCATIONuid 10024
+05-16 01:42:50.625  1834  1985 E WifiService: enforceCanAccessScanResults: hiding ssid and bssidUID 10024 has no location permission
+05-16 01:42:50.630  1834  1985 E WifiService: enforceCanAccessScanResults: hiding ssid and bssidUID 10024 has no location permission
+05-16 01:42:50.871  1834  2065 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+05-16 01:42:50.871  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:42:50.911  1834  1872 D ZrHung.AppEyeTransparentWindow: handleMessage CHECK_TRANS_WINDOW_ERROR_MSG
+05-16 01:42:50.629  1834  1985 E WifiPermissionsUtil: getUidPermission is DENIED and permissionType android.permission.ACCESS_FINE_LOCATIONuid 10024
+05-16 01:42:50.962  2451  2748 I PositionFenceSignalCollect: position fence recognize by cell and serve ap fail, no cell datas
+05-16 01:42:51.223  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -80, txBitrate: 26, rxBitrate: 27, frequency: 2452, UlDelay: 0, currentTxBytes: 444379109, currentTxPackets: 4538642, currentTxFailed: 0, currentRxBytes: 313009942, currentRxPackets: 7055480
+05-16 01:42:51.232  1834  2164 D HuaweiWifiWatchdogStateMachine: nothing to do
+05-16 01:42:51.232  1834  2065 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -80
+05-16 01:42:51.233  1834  2065 I QosMonitor: queryRtt: rttType = 3
+05-16 01:42:51.233  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:51.233  1834  2166 I HwDualBandManager: handle2gApStrongWifiRssiChange
+05-16 01:42:51.233  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+05-16 01:42:51.233  1834  2164 I HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 51
+05-16 01:42:51.233  1834  2164 I HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx bytes =9KB
+05-16 01:42:51.233  1834  2065 I QosMonitor: resetRtt: rttType = 3
+05-16 01:42:51.234  1834  2164 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 2, 0. Lr =0% Totpkt=2
+05-16 01:42:51.234  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:51.234  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:51.234  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+05-16 01:42:51.235  1834  2065 I MQoS    : rtt=368,tcpTxPkts=4208006,tcpRxPkts=6329607
+05-16 01:42:51.235  1834 11540 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+05-16 01:42:51.236  1834  2164 I HuaweiWifiWatchdogStateMachine: PTcp RTT:368, rtt pkt=14, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+05-16 01:42:51.236  1834  2164 I HuaweiWifiWatchdogStateMachine: rssi bad, mrssi=-78 < TargetRssi=-72
+05-16 01:42:51.236  1834  2164 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 368 ,rssi = -78 ,mBestSpeedInPeriod = 0
+05-16 01:42:51.236  1834  2164 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 2
+05-16 01:42:51.250  1086  1179 I HfLooper: als lux = 50.000000 , rawdata1 =197.000000., rawdata1 = 12.000000
+05-16 01:42:51.695 25686 25702 W System  : A resource failed to call close. 
+05-16 01:42:52.144  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.177  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.195   704   786 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:9.052724,dur:2430.21,max:1686.44,min:15.31  
+05-16 01:42:52.210  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.236   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:42:52.236   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:42:52.243  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.276  2686 29167 I chatty  : uid=10065(com.huawei.android.launcher) identical 1 line
+05-16 01:42:52.308  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.318   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:42:52.319   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:42:52.342  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.621  2686 29167 I chatty  : uid=10065(com.huawei.android.launcher) identical 9 lines
+05-16 01:42:52.638  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.645   675 26102 I netd    : trafficSwapActiveStatsMap() <0.65ms>
+05-16 01:42:52.654  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.687  2686 29167 I chatty  : uid=10065(com.huawei.android.launcher) identical 2 lines
+05-16 01:42:52.688  2686 29167 W HwLauncher: getDownloadInfo return null!
+05-16 01:42:52.875  1834  2065 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+05-16 01:42:52.875  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:42:53.101  2451  2748 I SpeedTestNotifier: is low speed scene
+05-16 01:42:53.212  2531  9919 I HwNaturalBase: [CommonHandler]: 40501Kb ram is used.
+05-16 01:42:53.318  1065  1065 I thermal_repeater: [recvMdThermalInfo] ret=35, strLen=127,  0, 32767, -127, 3404, 32767, 10539
+05-16 01:42:53.449  1834  2066 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.957) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+05-16 01:42:53.528  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -80, txBitrate: 26, rxBitrate: 2, frequency: 2452, UlDelay: 0, currentTxBytes: 444379193, currentTxPackets: 4538644, currentTxFailed: 0, currentRxBytes: 313010026, currentRxPackets: 7055482
+05-16 01:42:53.532  1834  2066 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@5f30e40
+05-16 01:42:53.744   704  1223 I hwcomposer: [DPY] receive refesh frquest from driver: type[4]  
+05-16 01:42:53.744   704  1223 I hwcomposer: [HWC] fire a callback of refresh to SF  
+05-16 01:42:53.750   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:42:53.750   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:42:53.767   704 17882 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:13.361814,dur:1571.64,max:1026.47,min:15.36  
+05-16 01:42:53.790   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:42:53.790   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:42:53.869  1834  2065 I TrafficMonitor: expired arrive. level:-1
+05-16 01:42:53.870  1834  2065 I TrafficMonitor: during_ms:2005,period_ms:2000
+05-16 01:42:53.870  1834  2065 I TrafficMonitor: count:315,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2005,rx_speed:0.0,tx_speed:0.0,rto:0.0
+05-16 01:42:53.870  1834  2065 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 0 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 0
+05-16 01:42:53.873   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:42:53.873   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:42:53.919  1086  1179 I HfLooper: als lux = 51.000000 , rawdata1 =198.000000., rawdata1 = 10.000000
+05-16 01:42:54.253  1094  6920 D AALLightSensor: oldLux=57 [SA:50 LA:49] newLux=57 (oriLux: 51)
+05-16 01:42:54.881  1834  2065 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+05-16 01:42:54.881  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:42:54.924 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:42:54.961 23396 23404 I chatty  : uid=1000(system) /vendor/bin/bms_behavior identical 1 line
+05-16 01:42:55.019 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:42:55.051  2648  3525 I PGConfigUpdateManager: reParse Config file
+05-16 01:42:55.056  2648  3525 I PGConfigUpdateManager: local file is crypted
+05-16 01:42:55.065 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:42:55.067 23396 23404 I bms_behavior: monitor interval count 517
+05-16 01:42:55.068  2648  3525 I PGConfigUpdateManager: doParseConfigFileLocked, total use:10
+05-16 01:42:55.068  2648  3525 I PGConfigUpdateManager: notifyClient
+05-16 01:42:55.069  2648  3658 I AlarmAdapter: set alarm exemption for action, pkg:android actionList:[DeviceIdleController.deep] set:true
+05-16 01:42:55.071  1834  9349 D SmartHeartBeat: setAlarmExemptionByActionInner ...
+05-16 01:42:55.073  2648  3658 I PassThroughStats: report app type, msg: flag=0 count=1 name=com.eg.android.AlipayGphone
+05-16 01:42:55.073  2648  3658 I AppTypeRecogManager: removeAppFromList pkg: com.eg.android.AlipayGphone
+05-16 01:42:55.074  2648  3658 I PassThroughStats: report app type, msg: flag=1 count=1 name=com.eg.android.AlipayGphone type=19
+05-16 01:42:55.081  2648  3523 I ApplistMgr: App Info database change !
+05-16 01:42:55.081  2648  3658 I AppTypeRecogManager: Cloud push type pkgName : com.eg.android.AlipayGphone type: 19
+05-16 01:42:55.082  2648  3658 I ApplistMgr: mNightRequestInteractionApps: null
+05-16 01:42:55.082  2648  3658 I ApplistMgr: mIgnoreAudioApps: null
+05-16 01:42:55.083  2648  3658 I AppResManager: No Power kit config, list is null!!! 
+05-16 01:42:55.084  2648  3658 I PG_ash  : load default bc proxy actions, modify: false, sProxyActionList: [android.intent.action.ANY_DATA_STATE, android.intent.action.TIME_TICK, android.intent.action.BATTERY_CHANGED, android.intent.action.SCREEN_ON, android.intent.action.SCREEN_OFF, android.intent.action.SIG_STR, android.intent.action.CONFIGURATION_CHANGED, android.intent.action.SERVICE_STATE, android.intent.action.USER_PRESENT, android.intent.action.PACKAGE_RESTARTED, android.intent.action.CLOSE_SYSTEM_DIALOGS, android.intent.action.PACKAGE_ADDED, android.intent.action.PACKAGE_REMOVED, android.intent.action.PACKAGE_CHANGED, android.intent.action.PACKAGE_REPLACED, android.intent.action.PHONE_STATE, android.intent.action.SIM_STATE_CHANGED, android.intent.action.MEDIA_SCANNER_FINISHED, android.intent.action.MEDIA_SCANNER_STARTED, android.intent.action.HEADSET_PLUG, android.intent.action.ACTION_DSDS_SUB1_OPERATOR_CHANGED, android.media.VOLUME_CHANGED_ACTION, android.net.conn.CONNECTIVITY_CHANGE, android.net.wifi.supplicant.CONNECTION_CHANGE, android.net.wifi.supplicant.STATE_CHANGE, android.net.wifi.WIFI_STATE_CHANGED, android.net.wifi.SCAN_RESULTS, android.net.wifi.STATE_CHANGE, android.net.wifi.RSSI_CHANGED, android.location.GPS_ENABLED_CHANGE, org.agoo.android.intent.action.ELECTION_RESULT_V4, com.tencent.android.tpush.service.channel.heartbeatIntent, com.tencent.android.tpush.action.SDK, com.baidu.android.pushservice.action.METHOD, com.igexin.sdk.action.execute, com.igexin.sdk.action.pushmanager, com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP, com.tencent.mm.plugin.openapi.Intent.ACTION_HANDLE_APP_REGISTER, com.huawei.espace.pushcheck, com.baidu.sapi2.ACTION_HOUR_FREQUENCY, com.baidu.android.pushservice.action.BIND_SYNC, android.location.GPS_FIX_CHANGE, com.android.eguan.drivermonitor, android.bluetooth.device.action.ACL_CONNECTED, android.bluetooth.device.action.ACL_DISCONNECTED, android.bluetooth.headset.profile.action.CONNECTION_STATE_CHANGED, android.os.action.DEVICE_IDLE_MODE_CHANGED, android.net.wifi.CONFIGURED_NETWORKS_CHANGE, com.action.utdid, wx_global_action, com.jingdong.jdpush.MSG_CENTER]
+05-16 01:42:55.086  1008 29178 D keymaster_worker: Keystore begin
+05-16 01:42:55.086  1008 29178 D keymaster_worker: Keystore begin hidl
+05-16 01:42:55.086   586   586 I HisiKeyMaster: HisiKmBegin start
+05-16 01:42:55.087   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.096   586   586 I HisiKeyMaster: out_params_buffer_len = 32
+05-16 01:42:55.096   586   586 I HisiKeyMaster: HisiKmBegin success
+05-16 01:42:55.096  1008 29178 D keymaster_worker: Keystore begin hidl end
+05-16 01:42:55.097  1008 29178 D keymaster_worker: Keystore begin end
+05-16 01:42:55.104  1008 29179 D keymaster_worker: Keystore update
+05-16 01:42:55.105  1008 29179 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.105   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.105   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.118   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.119  1008 29179 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.119  1008 29179 D keymaster_worker: Keystore update end
+05-16 01:42:55.121  1008 29180 D keymaster_worker: Keystore update
+05-16 01:42:55.121  1008 29180 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.122   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.122   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.132   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.133  1008 29180 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.133  1008 29180 D keymaster_worker: Keystore update end
+05-16 01:42:55.135  1008 29181 D keymaster_worker: Keystore update
+05-16 01:42:55.135  1008 29181 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.135   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.135   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.141   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.142  1008 29181 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.142  1008 29181 D keymaster_worker: Keystore update end
+05-16 01:42:55.145  1008 29182 D keymaster_worker: Keystore update
+05-16 01:42:55.145  1008 29182 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.145   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.145   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.151   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.152  1008 29182 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.152  1008 29182 D keymaster_worker: Keystore update end
+05-16 01:42:55.155  1008 29183 D keymaster_worker: Keystore update
+05-16 01:42:55.155  1008 29183 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.155   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.155   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.161   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.161  1008 29183 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.161  1008 29183 D keymaster_worker: Keystore update end
+05-16 01:42:55.165  1008 29184 D keymaster_worker: Keystore update
+05-16 01:42:55.165  1008 29184 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.165   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.165   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.171   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.171  1008 29184 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.171  1008 29184 D keymaster_worker: Keystore update end
+05-16 01:42:55.175  1008 29185 D keymaster_worker: Keystore update
+05-16 01:42:55.175  1008 29185 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.175   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.175   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.181   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.181  1008 29185 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.181  1008 29185 D keymaster_worker: Keystore update end
+05-16 01:42:55.184  1008 29186 D keymaster_worker: Keystore update
+05-16 01:42:55.185  1008 29186 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.185   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.185   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.191   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.191  1008 29186 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.191  1008 29186 D keymaster_worker: Keystore update end
+05-16 01:42:55.195  1008 29187 D keymaster_worker: Keystore update
+05-16 01:42:55.195  1008 29187 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.195   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.195   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.202   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.202  1008 29187 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.203  1008 29187 D keymaster_worker: Keystore update end
+05-16 01:42:55.206  1008 29188 D keymaster_worker: Keystore update
+05-16 01:42:55.206  1008 29188 D keymaster_worker: Keystore update hidl
+05-16 01:42:55.207   586   586 I HisiKeyMaster: HisiKmUpdate start
+05-16 01:42:55.207   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.212   586   586 I HisiKeyMaster: HisiKmUpdate success
+05-16 01:42:55.212  1008 29188 D keymaster_worker: Keystore update hidl end
+05-16 01:42:55.212  1008 29188 D keymaster_worker: Keystore update end
+05-16 01:42:55.215  1008 29189 D keymaster_worker: Keystore finish
+05-16 01:42:55.215  1008 29189 D keymaster_worker: Keystore finish hidl
+05-16 01:42:55.215   586   586 I HisiKeyMaster: HisiKmFinish start
+05-16 01:42:55.215   586   586 I HisiKeyMaster: Disable the enhanced crypto!
+05-16 01:42:55.220   586   586 I HisiKeyMaster: output data size=16
+05-16 01:42:55.220   586   586 I HisiKeyMaster: HisiKmFinish success
+05-16 01:42:55.221  1008 29189 D keymaster_worker: Keystore finish hidl end
+05-16 01:42:55.221  1008 29189 D keymaster_worker: Keystore finish end
+05-16 01:42:55.226  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -81, txBitrate: 26, rxBitrate: 2, frequency: 2452, UlDelay: 0, currentTxBytes: 444379193, currentTxPackets: 4538644, currentTxFailed: 0, currentRxBytes: 313010026, currentRxPackets: 7055482
+05-16 01:42:55.226  1834 28844 I SecurityProfileDB: Write database file end
+05-16 01:42:55.235  1834  2164 D HuaweiWifiWatchdogStateMachine: nothing to do
+05-16 01:42:55.235  1834  2065 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -81
+05-16 01:42:55.235  1834  2164 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 4, 0. Lr =0% Totpkt=4
+05-16 01:42:55.235  1834  2065 I QosMonitor: queryRtt: rttType = 3
+05-16 01:42:55.235  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:55.235  1834  2166 I HwDualBandManager: handle2gApStrongWifiRssiChange
+05-16 01:42:55.237  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+05-16 01:42:55.237  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:55.237  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+05-16 01:42:55.237  1834  2065 I MQoS    : rtt=368,tcpTxPkts=4208006,tcpRxPkts=6329607
+05-16 01:42:55.238  1834  2065 I QosMonitor: resetRtt: rttType = 3
+05-16 01:42:55.238  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:55.238  1834  2164 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+05-16 01:42:55.238  1834  2164 I HuaweiWifiWatchdogStateMachine: rssi bad, mrssi=-81 < TargetRssi=-72
+05-16 01:42:55.238  1834  2164 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 0 ,rssi = -81 ,mBestSpeedInPeriod = 0
+05-16 01:42:55.238  1834  2164 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 2
+05-16 01:42:55.238  1834 11540 D HwConnectivityServiceEx: set 1000 wlan0 value false
+05-16 01:42:55.238  1834 11540 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+05-16 01:42:55.239  1834 11540 I MQoS    : skip-low-Level:0(0),DataDisable;use level-0
+05-16 01:42:55.376  1064  1088 D AwareLog: iawared: WorkingsetProcessCommand subCmd = 353, userId=10360, pid=29081, com.mars.infra.trace
+05-16 01:42:55.376  1064  1088 W AwareLog: iawared: WorkingsetRestoreAppIoPrioInternal SYS_ioprio_set failed! which=1, class=0, prio=4, pid=29081, errno=3
+05-16 01:42:55.378  1064  1088 D AwareLog: iawared: WorkingsetAbort com.mars.infra.trace
+05-16 01:42:55.431  2648  3523 I AppFasManager: set fas when standby protected app list changed : 
+05-16 01:42:55.508 29038 29038 I HwGameAssistant-12.0.1.301-ReceiverController: excute System.exit
+05-16 01:42:55.511 29038 29038 I meassistant:br: System.exit called, status: 0
+05-16 01:42:55.511 29038 29038 I AndroidRuntime: VM exiting with result code 0, cleanup skipped.
+05-16 01:42:55.578  1834  2975 I ActivityManager: Process com.huawei.gameassistant:brd (pid 29038) has died: cch+15 CEM 
+05-16 01:42:55.579  1834  1877 I libprocessgroup: Successfully killed process cgroup uid 10093 pid 29038 in 0ms
+05-16 01:42:55.579  1834  2094 W HwAudioServiceEx: SoundEffectState bundle get reserved is invalid
+05-16 01:42:55.579   676   676 I Zygote  : Process 29038 exited cleanly (0)
+05-16 01:42:55.579  1834  2975 D ActivityManager: cleanUpApplicationRecord app: 29038:com.huawei.gameassistant:brd/u0a93, bad: false, restarting: false, allowRestart: true
+05-16 01:42:55.580  1834  1868 I HwPowerManagerService: appdie release wakelock, pid = 29038, uid = 10093
+05-16 01:42:55.582  2451  3311 E HsmCoreServiceImpl: onTransact in code is: 102
+05-16 01:42:55.582  2451  3311 I MediaProcessHandler: processOp opType: 1, uid: 10093, pid: 29038
+05-16 01:42:55.582  1834  2030 W AwareLog: SchedLevelBoost: onProcessDied config not set!
+05-16 01:42:55.582  2451  3311 W MediaProcessHandler: only the process it self can do this operation: 10093, 1000, 29038, 2752
+05-16 01:42:55.582  2451  3311 I MediaProcessHandler: executedCallBack opType: 1 mMediaStatusObservers.size=1
+05-16 01:42:55.964  2531 10191 I OPCollectLog: ARFromAwarenessImpl:handleMessage msg: 1
+05-16 01:42:55.965  2531 10191 E CAWARENESS_CLIENT: sdk_b: checkApkExist false PackageManager.NameNotFoundException
+05-16 01:42:55.965  2531 10191 E CAWARENESS_CLIENT: AwarenessManager: connectMsdpService() msdp do not install
+05-16 01:42:56.081   690   690 D AudioALSAHardware: -getParameters()
+05-16 01:42:56.085  1834  2094 I HwAudioServiceEx: HwAudioHandlerEx receive unknown msg
+05-16 01:42:56.540  1834  2066 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.957) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+05-16 01:42:56.549  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -80, txBitrate: 26, rxBitrate: 2, frequency: 2452, UlDelay: 0, currentTxBytes: 444379193, currentTxPackets: 4538644, currentTxFailed: 0, currentRxBytes: 313010026, currentRxPackets: 7055482
+05-16 01:42:56.553  1834  2066 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@5f30e40
+05-16 01:42:56.584  1086  1179 I HfLooper: als lux = 51.000000 , rawdata1 =199.000000., rawdata1 = 10.000000
+05-16 01:42:56.883  1834  2065 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+05-16 01:42:56.883  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:42:57.243   675 26102 I netd    : trafficSwapActiveStatsMap() <1.35ms>
+05-16 01:42:57.357   833   833 I aptouch_daemon: check_afe_status, afe[242 120 X1] [ctrl:X40020 ftr:X140] dif[17 -15] raw[34044 32408] [exp:X0 aN:0 lo:0]
+05-16 01:42:57.661   675 26102 I netd    : trafficSwapActiveStatsMap() <0.44ms>
+05-16 01:42:58.295  1040  1040 E Thermal-daemon:hw_thermal: [mtk 4G pa] tempNew :28  tempOld :27
+05-16 01:42:58.297  1040  1040 E Thermal-daemon:hw_thermal: Report temperature: [mtk 4G pa] temp :28  reportThreshold:1
+05-16 01:42:58.420  1094  6920 D AALLightSensor: oldLux=57 [SA:50 LA:49] newLux=57 (oriLux: 51)
+05-16 01:42:58.889  1834  2065 I TrafficMonitor: update:rxPkts:0,txPkts:0,rxBytes:0,txBytes:0
+05-16 01:42:58.889  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:42:59.235  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -82, txBitrate: 26, rxBitrate: 2, frequency: 2452, UlDelay: 0, currentTxBytes: 444379193, currentTxPackets: 4538644, currentTxFailed: 0, currentRxBytes: 313010026, currentRxPackets: 7055482
+05-16 01:42:59.247  1834  2164 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 4, 0. Lr =0% Totpkt=4
+05-16 01:42:59.247  1834  2065 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -82
+05-16 01:42:59.247  1834  2065 I QosMonitor: queryRtt: rttType = 3
+05-16 01:42:59.248  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:59.248  1834  2166 I HwDualBandManager: handle2gApStrongWifiRssiChange
+05-16 01:42:59.249  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+05-16 01:42:59.249  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:42:59.249  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+05-16 01:42:59.249  1834  2065 I MQoS    : rtt=368,tcpTxPkts=4208006,tcpRxPkts=6329607
+05-16 01:42:59.250  1834  2164 I HuaweiWifiWatchdogStateMachine: PTcp RTT:0, rtt pkt=0, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+05-16 01:42:59.250  1834  2164 I HuaweiWifiWatchdogStateMachine: rssi bad, mrssi=-82 < TargetRssi=-72
+05-16 01:42:59.250  1834 11540 D HwConnectivityServiceEx: set 1000 wlan0 value false
+05-16 01:42:59.250  1834  2164 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 0 ,rssi = -82 ,mBestSpeedInPeriod = 0
+05-16 01:42:59.250  1834  2164 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 2
+05-16 01:42:59.250  1086  1179 I HfLooper: als lux = 51.000000 , rawdata1 =199.000000., rawdata1 = 10.000000
+05-16 01:42:59.250  1834 11540 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+05-16 01:42:59.558  1834  2066 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.957) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+05-16 01:42:59.569  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -82, txBitrate: 26, rxBitrate: 2, frequency: 2452, UlDelay: 0, currentTxBytes: 444379193, currentTxPackets: 4538644, currentTxFailed: 0, currentRxBytes: 313010026, currentRxPackets: 7055482
+05-16 01:42:59.573  1834  2066 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@5f30e40
+05-16 01:42:59.657  1068  1068 I thermal_src: recvmsg_expect 4, but get 5 
+05-16 01:42:59.658  1068  1068 V thermal_src: TA_DAEMON_CMD_SET_TTJ:ERROR ret=-1
+05-16 01:42:59.658  1068  1068 E thermal_src: set_ttj_to_kernel 1:error -1
+05-16 01:42:59.658  1068  1068 I thermal_src: recvmsg_expect 6, but get 4 
+05-16 01:42:59.658  1068  1068 V thermal_src: TA_DAEMON_CMD_GET_TI:ERROR ret=-1
+05-16 01:42:59.658  1068  1068 I thermal_src: recvmsg_expect 2, but get 6 
+05-16 01:42:59.658  1068  1068 V thermal_src: waiting NOTIFY from kernel miss, -1
+05-16 01:42:59.884  1834  2065 I TrafficMonitor: expired arrive. level:-1
+05-16 01:42:59.884  1834  2065 I TrafficMonitor: during_ms:2005,period_ms:2000
+05-16 01:42:59.884  1834  2065 I TrafficMonitor: count:318,rx_sum:0,tx_sum:0,rxBytes:0,during_ms:2005,rx_speed:0.0,tx_speed:0.0,rto:0.0
+05-16 01:42:59.884  1834  2065 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 0 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 0
+05-16 01:43:00.007  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:00.015  2256  2256 E DateView: DateView,mCurrentTime: 1652636580015
+05-16 01:43:00.024  2686  2686 I HwLauncher: CalenderDynamicUpdater setHasUpdateSuccess, success: true
+05-16 01:43:00.024  2686  2686 I HwLauncher: CalenderDynamicUpdater setHasUpdateSuccess, success: true
+05-16 01:43:00.038   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:00.039   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:00.067  2686  2686 E ndroid.launche: No package ID ff found for ID 0xffffffff.
+05-16 01:43:00.073 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:43:00.080   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:00.081   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:00.084   704 17882 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.158299,dur:6317.15,max:6317.15,min:6317.15  
+05-16 01:43:00.110 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:43:00.121   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:00.121   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:00.133  2256  2256 E ndroid.systemu: No package ID ff found for ID 0xffffffff.
+05-16 01:43:00.136  2256  2256 E ndroid.systemu: No package ID ff found for ID 0xffffffff.
+05-16 01:43:00.162 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:43:00.204  2648  3523 I AppFasManager: set fas when optimze changed : 
+05-16 01:43:00.212 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:43:00.213 23396 23404 I bms_behavior: monitor interval count 518
+05-16 01:43:00.235 25502 29193 D AdBlock_AbsAdRequest: doRequest
+05-16 01:43:00.009  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:00.238  1834  1985 V ActivityManager: Successfully start provider ContentProviderRecord{9e64923 u0 com.huawei.systemmanager/.optimize.smcs.SMCSProvider} launchingApp=null caller pid= 25502
+05-16 01:43:00.244 25502 29193 D AdBlock_AbsAdRequest: getPostRequestParam param: apps=%5B%7B%22pkgName%22%3A%22com.mars.infra.trace%22%2C%22versionCode%22%3A1%2C%22version%22%3A%221.0%22%7D%5D&buildNumber=JSC-AN00A+2.0.0.231%28C01E230R4P5%29&clientPackage=com.huawei.systemmanager&emuiVer=EmotionUI_12.0.0&firmwareVersion=10&locale=zh_CN&method=store.getControlStrategy&phoneType=JSC-AN00&resolution=1080x2400&sysBits=2&ts=1652636580236&version=11.1.1.440
+05-16 01:43:00.244 25502 29193 D HsmJoinRequest: http request.
+05-16 01:43:00.256 25502 29193 D HsmGzipRequest: setRequestProperty jsonObject already!
+05-16 01:43:00.258   675  1214 W /system/bin/netd: A binder object at 0x71cff31ac0 is being transacted on, however, this object is in the same process as its proxy. Transacting with this binder is expensive compared to just calling the corresponding functionality in the same process.
+05-16 01:43:00.894  1834  2065 I TrafficMonitor: update:rxPkts:0,txPkts:1,rxBytes:0,txBytes:64
+05-16 01:43:00.894  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:43:01.070  2648  3523 I CommonAdapter: setDeviceIdleIgnoreLocating ignoreLocating=true
+05-16 01:43:01.071  2648  3523 I AlarmConfigUnifier: set doze ignore locating enable:true
+05-16 01:43:01.072  2648  3523 I AlarmConfigUnifier: check doze ignore locating state=true
+05-16 01:43:01.072  2648  3523 I AlarmAdapter: set alarm exemption for action, pkg:android actionList:[DeviceIdleController.deep] set:false
+05-16 01:43:01.073  1834  2975 D SmartHeartBeat: setAlarmExemptionByActionInner ...
+05-16 01:43:01.204   746 15352 D AudioPolicyService: getUidState(10037) cacheIter->second.first, return cacheIter->second.second(6)
+05-16 01:43:01.217   746 15352 D AudioPolicyService: getUidState(10037) cacheIter->second.first, return cacheIter->second.second(11)
+05-16 01:43:01.919  1086  1179 I HfLooper: als lux = 51.000000 , rawdata1 =199.000000., rawdata1 = 10.000000
+05-16 01:43:02.290  1834  1834 D HwConnectivityManagerImpl: getNetworkPolicyFlag flagStr null
+05-16 01:43:02.291   675  1218 I         : ApiCount[0, 0, 1, 617, 0, 0, 0, 175, 172, 0, 3457, 2122, 0, 126, 80, 0, 82, 0, 11505, 39075]
+05-16 01:43:02.325 25502 29193 I SecureSSLSocketFactory: createSocket: s , host , port , autoClose
+05-16 01:43:02.484 25502 29193 D HsmGzipRequest: Release connection
+05-16 01:43:02.485 25502 29193 W HSM_UI-11.1.1.440: AdBlockResultHandle:handleAdView array is empty
+05-16 01:43:02.487  1834  2975 V ActivityManager: Successfully start provider ContentProviderRecord{9e64923 u0 com.huawei.systemmanager/.optimize.smcs.SMCSProvider} launchingApp=null caller pid= 25502
+05-16 01:43:02.508  1834  1875 I AlarmManager: remove alarm:Alarm{6a9ff39 type 1 when 1652704089763 PendingIntent{879e31a: PendingIntentRecord{f33ce4b com.huawei.systemmanager broadcastIntent}}com.huawei.systemmanager procName com.huawei.systemmanager:service} according to operation:879e31a
+05-16 01:43:02.580  1834  2066 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.957) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+05-16 01:43:02.584  1094  6920 D AALLightSensor: oldLux=57 [SA:50 LA:49] newLux=57 (oriLux: 51)
+05-16 01:43:02.587  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -82, txBitrate: 26, rxBitrate: 2, frequency: 2452, UlDelay: 0, currentTxBytes: 444379423, currentTxPackets: 4538647, currentTxFailed: 0, currentRxBytes: 313010603, currentRxPackets: 7055485
+05-16 01:43:02.589  1834  2066 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@5f30e40
+05-16 01:43:02.617   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:02.618   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:02.626   704   786 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.786850,dur:2541.78,max:2512.12,min:29.66  
+05-16 01:43:02.685   675 26102 I netd    : trafficSwapActiveStatsMap() <0.50ms>
+05-16 01:43:02.700   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:02.700   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:02.898  1834  2065 I TrafficMonitor: update:rxPkts:8,txPkts:10,rxBytes:5219,txBytes:1627
+05-16 01:43:02.898  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:43:03.131  2451  2748 I SpeedTestNotifier: is low speed scene
+05-16 01:43:03.237  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -82, txBitrate: 26, rxBitrate: 1, frequency: 2452, UlDelay: 0, currentTxBytes: 444379423, currentTxPackets: 4538647, currentTxFailed: 0, currentRxBytes: 313010603, currentRxPackets: 7055485
+05-16 01:43:03.248  1834  2164 D HuaweiWifiWatchdogStateMachine: nothing to do
+05-16 01:43:03.248  1834  2065 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -82
+05-16 01:43:03.248  1834  2164 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 7, 0. Lr =0% Totpkt=7
+05-16 01:43:03.248  1834  2065 I QosMonitor: queryRtt: rttType = 3
+05-16 01:43:03.248  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:43:03.248  1834  2166 I HwDualBandManager: handle2gApStrongWifiRssiChange
+05-16 01:43:03.249  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+05-16 01:43:03.250  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:43:03.250  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+05-16 01:43:03.250  1834  2065 D HuaweiWifiWatchdogStateMachine: nothing to do
+05-16 01:43:03.251  1834  2065 I MQoS    : rtt=304,tcpTxPkts=4208015,tcpRxPkts=6329614
+05-16 01:43:03.251  1834  2164 I HuaweiWifiWatchdogStateMachine: PTcp RTT:304, rtt pkt=4, tcp_rx=7, tcp_tx=9, tcp_reTran=0, rtRate=0
+05-16 01:43:03.251  1834  2065 I QosMonitor: resetRtt: rttType = 3
+05-16 01:43:03.251  1834  2164 I HuaweiWifiWatchdogStateMachine: rssi bad, mrssi=-82 < TargetRssi=-72
+05-16 01:43:03.251  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:43:03.251  1834  2164 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 304 ,rssi = -82 ,mBestSpeedInPeriod = 0
+05-16 01:43:03.251  1834  2164 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 2
+05-16 01:43:03.252  1834 11540 D HwConnectivityServiceEx: set 1000 wlan0 value false
+05-16 01:43:03.252  1834 11540 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+05-16 01:43:03.252  1834 11540 I MQoS    : skip-low-Level:0(0),DataDisable;use level-0
+05-16 01:43:03.299  1040  1040 E Thermal-daemon:hw_thermal: [mtk 4G pa] tempNew :27  tempOld :28
+05-16 01:43:03.301  1040  1040 E Thermal-daemon:hw_thermal: Report temperature: [mtk 4G pa] temp :27  reportThreshold:1
+05-16 01:43:03.336  1065  1065 I thermal_repeater: [recvMdThermalInfo] ret=35, strLen=127,  0, 32767, -127, 3404, 32767, 10539
+05-16 01:43:03.875  1037  1185 I storaged: storaged_t::event: storage_info refreshed.
+05-16 01:43:04.377  2589  3074 D DeviceMonitorPowerKit: run, sCountNum is 1
+05-16 01:43:04.377  2589  3074 D DeviceMonitorPowerKit: interval is 874738, ElapsedRealtime is 1838367487, isNeedRepeat: false
+05-16 01:43:04.377  2589  3074 E DeviceMonitorPowerKit: not Satify ApplyResource
+05-16 01:43:04.584  1086  1179 I HfLooper: als lux = 51.000000 , rawdata1 =199.000000., rawdata1 = 11.000000
+05-16 01:43:04.804   704  1223 I hwcomposer: [DPY] receive refesh frquest from driver: type[4]  
+05-16 01:43:04.804   704  1223 I hwcomposer: [HWC] fire a callback of refresh to SF  
+05-16 01:43:04.810   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:04.810   704   786 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:04.826   704   786 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:0.454481,dur:2200.31,max:2200.31,min:2200.31  
+05-16 01:43:04.832   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:04.833   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:04.904  1834  2065 I TrafficMonitor: update:rxPkts:1,txPkts:0,rxBytes:76,txBytes:0
+05-16 01:43:04.904  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:43:04.915   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:04.916   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:05.220 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:43:05.317 23396 23404 I chatty  : uid=1000(system) /vendor/bin/bms_behavior identical 2 lines
+05-16 01:43:05.362 23396 23404 E bms_file: file /sys/class/hw_power/charger/direct_charger/direct_charge_succ is invalid
+05-16 01:43:05.364 23396 23404 I bms_behavior: monitor interval count 519
+05-16 01:43:05.597  1834  2066 E WifiVendorHal: getWifiLinkLayerStats_1_3_Internal(l.957) failed {.code = ERROR_NOT_SUPPORTED, .description = }
+05-16 01:43:05.605  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -79, txBitrate: 26, rxBitrate: 13, frequency: 2452, UlDelay: 0, currentTxBytes: 444381038, currentTxPackets: 4538655, currentTxFailed: 0, currentRxBytes: 313015531, currentRxPackets: 7055493
+05-16 01:43:05.609  1834  2066 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@5f30e40
+05-16 01:43:05.639   833   833 I aptouch_daemon: check_idle_status, idle out.
+05-16 01:43:05.642   833   833 I aptouch_daemon: print_log, touch:1, down:1 (+0)
+05-16 01:43:05.642   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:05.643   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:05.643  1834  2037 D fingersense_manager: Calling fingersense_classify_touch()
+05-16 01:43:05.643  1834  1888 I osfingersense: Acc read ok
+05-16 01:43:05.643  1834  1888 I osfingersense: osf: wait tp event in
+05-16 01:43:05.643  1834  2037 I osfingersense: fingersense_classify_touch: entrance, v2.5 with 1.0 bin
+05-16 01:43:05.643  1834  2037 I osfingersense: touch down-id: 0
+05-16 01:43:05.643  1834  2037 I osfingersense: fingersense_classify_touch: M F: 180.441849
+05-16 01:43:05.643  1834  2037 I osfingersense: fingersense_classify_touch: P M F: 126.575348
+05-16 01:43:05.643  1834  2037 I osfingersense: fingersense_classify_touch: P: 368.000000
+05-16 01:43:05.643  1834  2037 I osfingersense: fingersense_classify_touch: N A: 0.309278
+05-16 01:43:05.643  1834  2037 I osfingersense: fingersense_classify_touch: N S: 0.088501
+05-16 01:43:05.643  1834  2037 I osfingersense: fingersense_classify_touch: M U: 8056.875000
+05-16 01:43:05.644  1834  2037 I osfingersense: fingersense_classify_touch: G: 45.000000
+05-16 01:43:05.644  1834  2037 I osfingersense: fingersense_classify_touch: B--N--A
+05-16 01:43:05.644  1834  2037 I osfingersense: fingersense_classify_touch: B--N--S
+05-16 01:43:05.644  1834  2037 I osfingersense: fingersense_classify_touch acc model off
+05-16 01:43:05.644  1834  2037 I osfingersense: fingersense_classify_touch: Part IV
+05-16 01:43:05.644  1834  2037 I osfingersense: Part IV B
+05-16 01:43:05.644  1834  2037 I osfingersense: fingersense_classify_touch: inference = 0
+05-16 01:43:05.644  1834  2037 D fingersense_manager: fingersense_classify_touch() finished
+05-16 01:43:05.645  1834  2037 I HwFingersSnapshooter: handleMotionEvent first finger(0) touch down at (614.0,1899.0)
+05-16 01:43:05.646  1834  2036 I InputDispatcher: stylus touch down, set lcd event 1
+05-16 01:43:05.647  1834  2036 I chatty  : uid=1000(system) InputDispatcher identical 2 lines
+05-16 01:43:05.647  1834  2036 I InputDispatcher: stylus touch down, set lcd event 1
+05-16 01:43:05.648  2686  2686 I RMS.HwSysResManager: preloadAppForLauncher packageName com.mars.infra.trace preloadType 101
+05-16 01:43:05.650  1834  2030 I BigFontUtils: adjustAppProcessConfiguration appInfo:com.mars.infra.trace
+05-16 01:43:05.649  1834  1856 I HWRME LIBHWRME_CLIENT: ResMngMmEvent interface arg 1, 10065
+05-16 01:43:05.651  1834  1856 I NavigationBarPolicy: pointY:1899.0realSize.y:2400HIT_REGION_TO_MAX:33
+05-16 01:43:05.652  1834  1886 I DisplayPowerController: mPowerState.mScreenChangedReason: 65539 mPendingRequestLocked.mScreenChangeReason 65539
+05-16 01:43:05.655  1834  1886 I DisplayPowerController: Animating brightness: target=46, rate=180,brightnessTargetReal=46,AutoBrightness=true
+05-16 01:43:05.658   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.658   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.659   743   779 I libPowerHal: [PE] scn:64 hdl:15 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.660  1834  1886 V DisplayPowerController: Brightness [46] reason changing to: 'automatic', previous reason: 'automatic [ dim ]'.
+05-16 01:43:05.661   743   779 I libPowerHal: iawareperf@1.0-: hard user limit set cpu freq: 1650000 -1 1837000 -1
+05-16 01:43:05.661   743   779 I libPowerHal: [PE] iawareperf@1.0- update cmd:1400100, param:100
+05-16 01:43:05.662  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:05.663   994  2016 I dubaid  : [DisplayPanel.cpp] HandleBrightnessNitChanged# Display brightness:46 reason:AUTO nit:102
+05-16 01:43:05.663   743   779 I libPowerHal: [PE] iawareperf@1.0- update cmd:1400300, param:100
+05-16 01:43:05.663   743   779 I libPowerHal: [PE] iawareperf@1.0- update cmd:1000000, param:3
+05-16 01:43:05.664   743   779 I libPowerHal: [PE] scn:57 hdl:8 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.665  1834  1886 I HwNormalizedRampAnimator: hbm_dimming target=1803 rate=180 duration=0.5
+05-16 01:43:05.666   746 15352 D AudioPolicyService: getUidState(10360) !cacheIter->second.first, return PROCESS_STATE_UNKNOWN
+05-16 01:43:05.666   746 15352 D AudioPolicyService: getUidState(10360) !cacheIter->second.first, return PROCESS_STATE_UNKNOWN
+05-16 01:43:05.668   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.668   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.674  1094  1176 D AAL     : onBacklightChanged: 24/1023 -> 32/1023(phy:64/4095)
+05-16 01:43:05.674  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.678   676   676 D Zygote  : Forked child process 29199
+05-16 01:43:05.680  1834  1876 I ActivityManager: Start proc 29199:com.mars.infra.trace/u0a360 for start application com.mars.infra.trace
+05-16 01:43:05.684   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.684   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.685 29199 29199 I ars.infra.trac: Late-enabling -Xcheck:jni
+05-16 01:43:05.690  1094  1176 D AAL     : onBacklightChanged: 32/1023 -> 43/1023(phy:86/4095)
+05-16 01:43:05.690  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.699   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.700   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.705   833   833 I aptouch_daemon: print_log, touch:0, down:0 
+05-16 01:43:05.706  1834  2037 I HwFingersSnapshooter: handleMotionEvent last finger(0) up.
+05-16 01:43:05.706  1834  2036 I InputDispatcher: stylus touch up, set lcd event 0
+05-16 01:43:05.706 29199 29199 E libc    : Access denied finding property "persist.device_config.runtime_native.use_app_image_startup_cache"
+05-16 01:43:05.706 29199 29199 E ars.infra.trac: LoadAppImageStartupCache enabled : 1
+05-16 01:43:05.706 29199 29199 E ars.infra.trac: Unknown bits set in runtime_flags: 0x8000
+05-16 01:43:05.707  1834  2036 I InputDispatcher: stylus touch up, set lcd event 0
+05-16 01:43:05.707  1834  2036 I chatty  : uid=1000(system) InputDispatcher identical 1 line
+05-16 01:43:05.707  1834  2036 I InputDispatcher: stylus touch up, set lcd event 0
+05-16 01:43:05.704 29199 29199 W ars.infra.trac: type=1400 audit(0.0:221308): avc: denied { read } for pid=29199 name="u:object_r:device_config_runtime_native_prop:s0" dev="tmpfs" ino=16090 scontext=u:r:untrusted_app:s0:c104,c257,c512,c768 tcontext=u:object_r:device_config_runtime_native_prop:s0 tclass=file permissive=0
+05-16 01:43:05.707  2686  2686 V AudioManager: querySoundEffectsEnabled...
+05-16 01:43:05.708 29199 29199 I ars.infra.trac: Reinit property: dalvik.vm.checkjni= false
+05-16 01:43:05.708 29199 29199 I ars.infra.trac: ReInitProperties: persist.vm.debug.dumpapi= false
+05-16 01:43:05.707   743   780 I mtkpower@impl: @Deprecated scnDisable hdl:8
+05-16 01:43:05.709   743   779 I libPowerHal: [PD] scn:57 hdl:8 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.709  1094  1176 D AAL     : onBacklightChanged: 43/1023 -> 54/1023(phy:108/4095)
+05-16 01:43:05.709  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.710  1834 28333 D BehaviorCollectorService: data is not enough, invalid data
+05-16 01:43:05.711   743   779 I libPowerHal: [PE] scn:58 hdl:9 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.713   743   779 I libPowerHal: [PE] scn:61 hdl:12 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.713   743   779 I libPowerHal: iawareperf@1.0-: set gpu opp level: 4
+05-16 01:43:05.713   743   779 I libPowerHal: iawareperf@1.0-: set gpu opp level max: 0
+05-16 01:43:05.714  1834  1985 I HwWindowManagerServiceEx: set app win exit info, bundle = Bundle[mParcelledData.dataSize=532], iconBitmap = android.graphics.Bitmap@78bda18
+05-16 01:43:05.714  1834  1985 D HwWindowManagerServiceEx: support landscape open anim : true
+05-16 01:43:05.714  1834  1985 I HwWindowManagerServiceEx: setLandAnimationInfo : true
+05-16 01:43:05.714  1834  1985 I HwWindowManagerServiceEx: set launch origin and target for: com.mars.infra.trace with delay 3000
+05-16 01:43:05.714   743   779 I libPowerHal: iawareperf@1.0-: hard user limit set cpu freq: 1650000 -1 1837000 -1
+05-16 01:43:05.714  1834  1985 D HwWindowManagerServiceEx: AnimationTurbo wms set setIconToLayer enter icon
+05-16 01:43:05.717   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.717   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.718  1834  1834 I DE J DES: [effect] [MOTION_NOTIFICATION] extra:app_start
+05-16 01:43:05.719  2686 29218 I HwLauncher: GestureUtil MOTION_NOTIFICATION app_start sendBroadcast extra= category: app_start
+05-16 01:43:05.719 29199 29199 D ActivityThread: Attach thread to application
+05-16 01:43:05.720  1834  1985 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 hwFlg=0x10 cmp=com.mars.infra.trace/com.mars.infra.fusion.MainActivity bnds=[546,1730][798,2037] (has extras)} from uid 10065
+05-16 01:43:05.720  1834  1985 I HwActivityTaskManagerServiceEx: developer mode, not limit.
+05-16 01:43:05.720  1064  1088 D AwareLog: iawared: pause rcc and gpu compress
+05-16 01:43:05.720  1834  1985 I HWRME LIBHWRME_CLIENT: ResMngMmEvent interface arg 0, 10360
+05-16 01:43:05.720  1064  1088 W AwareLog: iawared: ChangePropertyContent open /proc/gmc/device0/cancel fail errno(2)!
+05-16 01:43:05.721  1834  1985 I ActivityTaskManager: Background activity start: don't abort if calling uid has any visible window or is persistent system process
+05-16 01:43:05.722  1834  1985 D HwGameAssistantController: isGameForeground? false
+05-16 01:43:05.722  1834  1985 I ActivityTaskManager: ActivityRecord info: ActivityInfo{98f5c71 com.mars.infra.fusion.MainActivity}
+05-16 01:43:05.722  1834  1985 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t-1} display-from-source=0 display-id=0 display-windowing-mode=1
+05-16 01:43:05.723  1834  1985 D ActivityTaskManager: TaskLaunchParamsModifier:task=null activity=ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t-1} display-from-source=0 display-id=0 display-windowing-mode=1 activity-options-fullscreen=Rect(0, 0 - 0, 0) non-freeform-display maximized-bounds
+05-16 01:43:05.723   743   779 I libPowerHal: [PE] scn:54 hdl:5 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.723   743   779 I libPowerHal: iawareperf@1.0-: set gpu opp level max: 0
+05-16 01:43:05.723  1834  1985 D ActivityTaskManager: pinned windowing mode is false  pad mirror cast is  false
+05-16 01:43:05.723   743   779 I libPowerHal: iawareperf@1.0-: hard user limit set cpu freq: 1750000 -1 1993000 -1
+05-16 01:43:05.723   743   779 I libPowerHal: [PE] iawareperf@1.0- update cmd:1000000, param:1
+05-16 01:43:05.723  1094  1176 D AAL     : onBacklightChanged: 54/1023 -> 65/1023(phy:130/4095)
+05-16 01:43:05.723  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.724   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.hwsched@1.0::ISched/hwsched in either framework or device manifest.
+05-16 01:43:05.724   749  1219 E SurfaceFlingerEx: notifyRealVsyncPeriod could not find AISched service
+05-16 01:43:05.726  1834  1985 V ActivityTaskManager: addChild: attaching stackId=301 to displayId=0 position=1
+05-16 01:43:05.726  1834  1985 V ActivityTaskManager: positionChild stackId=301 to top.
+05-16 01:43:05.727  1834  1985 D ActivityTaskManager: TaskLaunchParamsModifier:task=TaskRecord{ec6fad7 #313 A=10360:com.mars.infra.trace U=0 StackId=301 sz=0} activity=ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t-1} display-from-task=0 display-id=0 display-windowing-mode=1 activity-options-fullscreen=Rect(0, 0 - 0, 0) non-freeform-display maximized-bounds
+05-16 01:43:05.728  1834  1985 V ActivityTaskManager: positionChild stackId=301 to top.
+05-16 01:43:05.729   743   779 I libPowerHal: [PE] scn:8 hint:LAUNCH
+05-16 01:43:05.729   743   779 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: 2000000 -1 2000000 -1
+05-16 01:43:05.729   743   779 I libPowerHal: [PE] LAUNCH update cmd:1000000, param:0
+05-16 01:43:05.729  1834  1985 I WindowManager: addWindowToken: displayid:0 binder:Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}} token:AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}
+05-16 01:43:05.729  1064  1088 D AwareLog: iawared: WorkingsetProcessCommand subCmd = 350, userId=10360, pid=29199, com.mars.infra.trace/com.mars.infra.fusion.MainActivity
+05-16 01:43:05.730  1064  1088 D AwareLog: iawared: WorkingsetAdjustAppIoPrio SYS_ioprio_get successfully! which=1, class=0, prio=4, pid=29199
+05-16 01:43:05.730  1064  1088 D AwareLog: iawared: WorkingsetAdjustAppIoPrio SYS_ioprio_set successfully! which=1, class=1, prio=4, pid=29199
+05-16 01:43:05.730  1834  1985 V ActivityTaskManager: addAppToken: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} task={taskId=313 appTokens=[] mdr=false} at 2147483647
+05-16 01:43:05.730  1064  1088 D AwareLog: iawared: WorkingsetSendPrereadMsg com.mars.infra.trace/com.mars.infra.fusion.MainActivity
+05-16 01:43:05.731  1834  1985 I ActivityTaskManager: setAppStartingWindow: token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}} pkg=com.mars.infra.trace transferFrom=null newTask=true taskSwitch=true processRunning=false allowTaskSnapshot=true activityCreated=false LowRamTaskSnapshots=false
+05-16 01:43:05.731  1834  1985 I WindowManager: Get card startingwindow flag: -1
+05-16 01:43:05.731  1064  1088 D AwareLog: iawared: WorkingsetStart com.mars.infra.trace/com.mars.infra.fusion.MainActivity in monitor0
+05-16 01:43:05.732   743   779 I libPowerHal: [PE] LAUNCH update cmd:1408300, param:100
+05-16 01:43:05.732  1834  1868 I HwAudioServiceEx: ComponentInfo : className = com.mars.infra.fusion.MainActivity, flag = showStartingWindow, isHomeActivity = , isTop = false
+05-16 01:43:05.732  1834  1868 I HwAudioServiceEx: not onResume or onPause
+05-16 01:43:05.733  2648 30920 I PGServer: android calls fast HApps
+05-16 01:43:05.734  2648 30920 I AppFastHibernation: fast H duration: 1500 reason: start activity
+05-16 01:43:05.734  2451  3311 E DollieActivityManagerAdapter: HwActivityNotifierEx null uid
+05-16 01:43:05.734  1064  8783 I Pged-IPgedBinderService: ****action is 1, pid num is 3***
+05-16 01:43:05.734  1064  8783 I Pged-Freezer: freezePids
+05-16 01:43:05.734  1064  8783 I Pged-Freezer: Freeze process: 23410
+05-16 01:43:05.734  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:05.735  1064  8783 I Pged-Freezer: Freeze process: 2282
+05-16 01:43:05.735  9327 16283 W ContentSensor_FrameworkRegistry: Unknown state is : showStartingWindow
+05-16 01:43:05.735  2648  3653 D PgedBinderAdapter: F_Z ok, pid: [23410, 2282]
+05-16 01:43:05.736   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.736  1834  1859 D MouseWheelSynthesizer: mMoveStepInDp: 64, mMoveStepInPixel: 192, mUpTimeDelayed: 100
+05-16 01:43:05.736  1834  1859 D ViewRootImpl: ViewRootImpl mIsInProductivePCDisplay: false
+05-16 01:43:05.736  1834  1859 I HwPCUtils#HwRioViewManager: check if rio enable, displayId = 0， packageName = com.mars.infra.trace
+05-16 01:43:05.738  1834  1859 I WindowManager: addWindow: Window{1f5a665 u0 Splash Screen com.mars.infra.trace} client:android.view.ViewRootImpl$W@71e035c currentDisplayId:0 requestDisplayId:0 token:Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}
+05-16 01:43:05.738   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.739  1834  1859 D InputEventReceiver: dispatchInputInterval 1000000
+05-16 01:43:05.739   743   779 I libPowerHal: [PD] scn:64 hdl:15 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.740  1094  1176 D AAL     : onBacklightChanged: 65/1023 -> 76/1023(phy:152/4095)
+05-16 01:43:05.740  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.740  1094  1176 D AAL     : 05-16 01:43:05.674 BL=  32,ESS= 256, 05-16 01:43:05.690 BL=  43,ESS= 256, 05-16 01:43:05.709 BL=  54,ESS= 256, 05-16 01:43:05.724 BL=  65,ESS= 256, 05-16 01:43:05.740 BL=  76,ESS= 256, 
+05-16 01:43:05.741  1834  9349 I HwWindowManagerServiceEx: setLandAnimationInfo : false
+05-16 01:43:05.741  1834  9349 I HwWindowManagerServiceEx: reset launch origin and target from non-message!
+05-16 01:43:05.741 29199 29217 I HwActivityThreadImpl: mSocketName: bb91e324-7fa9-4790-b797-08bc5398846e
+05-16 01:43:05.742 29199 29217 I HwActivityThreadImpl: initPreloadedSocked end mPreloadStatus 2
+05-16 01:43:05.744  2686  2686 I HwViewRootImpl: removeInvalidNode all the node in jank list is out of time
+05-16 01:43:05.746  1834  1858 V ActivityTaskManager: Activity idle: null
+05-16 01:43:05.746  1834  1858 V ActivityTaskManager: Stopping ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}: nowVisible=false animating=true finishing=false
+05-16 01:43:05.749  1834 29225 I PackageManager: Returning preferred activity: com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher
+05-16 01:43:05.749  1834 29225 I PackageManager: choose best activity: com.huawei.android.launcher, com.huawei.android.launcher.unihome.UniHomeLauncher
+05-16 01:43:05.749  1834 29225 D HiTouch_PressGestureDetector: onAttached, package=com.mars.infra.trace, windowType=3, mIsHiTouchRestricted=false
+05-16 01:43:05.750   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.750   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.751   749  1520 W RefBase : RefBase: Object at 0x7b74177ce8 lost last weak reference before it had a strong reference
+05-16 01:43:05.754  1834  1859 I WindowManager: Changing focus from Window{8c63ef1 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:209 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6517 com.android.server.wm.WindowManagerService.relayoutWindow:2813 com.android.server.wm.Session.relayout:197 
+05-16 01:43:05.754  1834  1859 I HwDisplayContentEx: currentFocus windowstate null
+05-16 01:43:05.755 29199 29219 I ActivityThread: Init compatible state: true
+05-16 01:43:05.755  1834  1859 D ZrHung.AppEyeFocusWindow: FocusWindowErrorScene CheckFreezeScreen
+05-16 01:43:05.756 29199 29219 D HwFrameworkSecurityPartsFactory: HwFrameworkSecurityPartsFactory in.
+05-16 01:43:05.757 29199 29219 I HwFrameworkSecurityPartsFactory: add HwFrameworkSecurityPartsFactory to memory.
+05-16 01:43:05.757  1094  1176 D AAL     : onBacklightChanged: 76/1023 -> 87/1023(phy:174/4095)
+05-16 01:43:05.757  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.757 29199 29219 E BehaviorCollectManager: Fail to acquire dataAnalyzerService...
+05-16 01:43:05.760  1834  2975 I HwWindowManagerServiceEx: setLandAnimationInfo : false
+05-16 01:43:05.761   743   779 I libPowerHal: [PD] scn:58 hdl:9 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.763  1834  2975 W HwActivityTaskManagerServiceEx: appSwitch from: com.huawei.android.launcher to: com.mars.infra.trace
+05-16 01:43:05.766 29199 29217 I HwActivityThreadImpl: before connect app.socketName:bb91e324-7fa9-4790-b797-08bc5398846e
+05-16 01:43:05.766  1834  1869 D HwGameAssistantController: UPDATE: mCurFgPkg=com.mars.infra.trace, mCurFgPid=29199, mIsCurGame=false
+05-16 01:43:05.766  1834  2163 I WiFi_PRO_WifiProStateMachine: current app com.mars.infra.trace, has changed
+05-16 01:43:05.767  1834  2163 I WiFi_PRO_WifiProStateMachine: not in RecommendWifi2CellState.
+05-16 01:43:05.767  2451 28718 I Hicom_Monitor: mAppSwitchNotifierEx. uid: 10360, foreground app: com.mars.infra.trace, foreground activity: com.mars.infra.fusion.MainActivity
+05-16 01:43:05.765  2451  3311 I AssistantService-11.2.1.200: registerHwActivityNotifier call fromPackage:com.huawei.android.launcher, toPackage:com.mars.infra.trace
+05-16 01:43:05.767   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.767 26597 29050 I HiAdKit.DC.PersistentMessageCenter:  notifyMessage com.huawei.hwid_app_switch_from_to_intent
+05-16 01:43:05.767  2451 13434 D AssistantService-11.2.1.200: handleMessage app switch fromPackage:com.huawei.android.launcher, toPackage:com.mars.infra.trace
+05-16 01:43:05.768  2451 28718 D SmartcareProc: onForegroundAppChanged, pkgName:com.mars.infra.trace, uid: 10360
+05-16 01:43:05.768  2451  3370 I Hicom_XEngineProc: handleForegroundAppChanged pkgName = com.mars.infra.trace
+05-16 01:43:05.768  2451 28718 D SmartcareProc: handlerAppForeground not match
+05-16 01:43:05.768  2451 28718 W FiControl: Failed to find configuration for com.mars.infra.trace
+05-16 01:43:05.768  2451  3370 W Hicom_XEngineProc: sendForegroundMessageToDaemon. daemonCommand is null
+05-16 01:43:05.768 29199 29199 D ApplicationLoaders: createClassLoader zip: /data/app/com.mars.infra.trace-5qYcUG2DKs09UvosGGDsmA==/base.apk librarySearchPath: /data/app/com.mars.infra.trace-5qYcUG2DKs09UvosGGDsmA==/lib/arm64 libraryPermittedPath: /data/user/0/com.mars.infra.trace parent: java.lang.BootClassLoader@6b0349 targetSdkVersion: 32 isBundled: false classLoaderName: null sharedLibraries: null
+05-16 01:43:05.768  1834  2975 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+05-16 01:43:05.768  1834  2975 I WindowManager: Check opening app=AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=Window{1f5a665 u0 Splash Screen com.mars.infra.trace}
+05-16 01:43:05.769  1834  2975 I WindowManager: dispatchResized : win = Window{1f5a665 u0 Splash Screen com.mars.infra.trace} drawState = DRAW_PENDING
+05-16 01:43:05.769  1834  1858 V ActivityTaskManager: Activity idle: null
+05-16 01:43:05.769  1834  1858 V ActivityTaskManager: Stopping ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}: nowVisible=false animating=true finishing=false
+05-16 01:43:05.770  1834  1868 I HwAudioServiceEx: ComponentInfo : className = com.huawei.android.launcher.unihome.UniHomeLauncher, flag = onPause, isHomeActivity = , isTop = false
+05-16 01:43:05.770  1834  2094 W HwAudioServiceEx: SoundEffectState bundle get reserved is invalid
+05-16 01:43:05.770  2686  2686 D DecorView: showOrHideHighlightView: hasFocus=false; winMode=1; isMrgNull=true
+05-16 01:43:05.771   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.772 26718 28875 I HiAdKit.KitStatisticsReport:  do not report kit daily active
+05-16 01:43:05.772  2451  2748 D DollieActivityManagerAdapter: [Paused] pid:2686 uid:10065 ComponentInfo{com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} uidState:2
+05-16 01:43:05.773  1094  1176 D AAL     : onBacklightChanged: 87/1023 -> 97/1023(phy:194/4095)
+05-16 01:43:05.773  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.774  1834  1859 I WindowManager: performshow Window{1f5a665 u0 Splash Screen com.mars.infra.trace} tok.waitingToShow=true isTransitionSet=true parentHidden=false vis=0 tok.hidden=true hasSurface=true policyVis=true destroying=false animating=true
+05-16 01:43:05.774  2648  3523 D ScenarioService: front pkg : com.mars.infra.trace launcher: false
+05-16 01:43:05.775  2648  3523 D ScenarioService: new above launcher front pkgs: [com.mars.infra.trace]
+05-16 01:43:05.775  2648  3658 I PG_ash  : front pkg : com.mars.infra.trace
+05-16 01:43:05.775  2648  3523 I AppsUsage: scnOff:false FgAPP:com.mars.infra.trace BgAPP:com.huawei.android.launcher
+05-16 01:43:05.775  1834  1859 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+05-16 01:43:05.775  2648  3737 I PGServer: report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1834
+05-16 01:43:05.775  1834  1859 I WindowManager: Check opening app=AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}: allDrawn=false startingDisplayed=true startingMoved=false isRelaunching()=false startingWindow=Window{1f5a665 u0 Splash Screen com.mars.infra.trace}
+05-16 01:43:05.775  1834  1859 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+05-16 01:43:05.775  2648  3737 I PGServer: report state:10010 event type:2 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 2648
+05-16 01:43:05.775  2648  3737 I SceneReceiver: state type: 10010 eventType:2 pid:0 uid:0 pkg:com.huawei.android.launcher
+05-16 01:43:05.775  2648  3737 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.mars.infra.trace to pid: 1834
+05-16 01:43:05.775  2648  3737 I PGServer: report state:10000 event type:1 pid:0 uid:0 pkg:com.mars.infra.trace to pid: 2648
+05-16 01:43:05.775  1834  1859 I WindowManager: send SET_LAUNCHER_VISIBLE_IN_FINGER_BOOST visible: true,delay:0, handle:true, userId:0, callingPid: 1834
+05-16 01:43:05.775  2648  3737 I ApsAppsTypeHandler: APS: APK: ApsAppsTypeHandler.getInstance, sInstance = com.huawei.android.hwaps.o@72c8c2b
+05-16 01:43:05.775  1834  1859 I HwWindowManagerServiceEx: closing apps count = 1
+05-16 01:43:05.776  1834  1859 D HwWindowManagerServiceEx: is app exit to launcher info: transit = 12, app = AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}, window = Window{8c63ef1 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, mClosingApps = {AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}}, topOpeningApp = AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}, mExitIconBitmap = android.graphics.Bitmap@aae4bef, mExitIconHeight = 180, mExitIconWidth = 180
+05-16 01:43:05.776  2648 30280 I PGServer: checkPkgType. calling pkg: android
+05-16 01:43:05.776  1834  1859 E WindowManager: icon is null!!
+05-16 01:43:05.776  1834  1985 I DE J DES: [effect] Pg pkg:com.mars.infra.trace
+05-16 01:43:05.776  2648  3737 I SceneReceiver: state type: 10000 eventType:1 pid:0 uid:0 pkg:com.mars.infra.trace
+05-16 01:43:05.776  1834  1859 E HwAnimationManagerImpl: wrong animation type
+05-16 01:43:05.778  1834  1859 V WindowManager: commitVisibility: AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: hidden=true hiddenRequested=true
+05-16 01:43:05.779  1834  1859 E WindowManager: icon is null!!
+05-16 01:43:05.779  1834  1859 D HwWindowManagerServiceEx: is app exit to launcher info: transit = 12, app = AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}, window = null, mClosingApps = {AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}}, topOpeningApp = AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}, mExitIconBitmap = android.graphics.Bitmap@aae4bef, mExitIconHeight = 180, mExitIconWidth = 180
+05-16 01:43:05.780  1834  1859 D HwWindowManagerServiceEx: getCrossAppTransitAnimRoundCornerRadius radius 93.0
+05-16 01:43:05.780  2648  5154 W ThermalTraceTool: IOException:java.io.IOException: read failed: EIO (I/O error)
+05-16 01:43:05.783  1834  1859 V WindowManager: commitVisibility: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}: hidden=false hiddenRequested=false
+05-16 01:43:05.783   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.783   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.787  1834  1856 D StatusBarManagerService: win:Window{1f5a665 u0 Splash Screen com.mars.infra.trace}mIsColorEnable:truelight:false
+05-16 01:43:05.787  2256  8786 D HwCommandQueue: CommandQueue, set Launcher StatusBar Color
+05-16 01:43:05.787  1834  1856 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{1f5a665 u0 Splash Screen com.mars.infra.trace}
+05-16 01:43:05.790  1094  1176 D AAL     : onBacklightChanged: 97/1023 -> 108/1023(phy:216/4095)
+05-16 01:43:05.790  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.791  1834  1858 W         : Failed to UpdateQosForCgroupInner, tid=0, policy=10
+05-16 01:43:05.795  1834  1858 I WindowManager: handle SET_LAUNCHER_VISIBLE_IN_FINGER_BOOST visible:true handle:trueuserId:0, currentUserId:0
+05-16 01:43:05.796  1834  1858 D WindowManager: setLauncherVisibleInFingerBoost record=ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+05-16 01:43:05.796  1834  1858 I WindowManager: setLauncherVisible setAlpha to 1.0
+05-16 01:43:05.796  1834  1858 D WindowManager: setLauncherVisible wallpaperScale=false
+05-16 01:43:05.797  1834  2975 D HwNetworkManagementService: code == CODE_SET_CHR_REPORT_APP_LIST
+05-16 01:43:05.797  1834  2030 W AwareLog: SchedLevelBoost: onFgActivitiesChanged config not set!
+05-16 01:43:05.797   675 26102 I OemNetd : setChrAppUid(10, 10360)
+05-16 01:43:05.797  1834  2975 I HwNetworkManagementService: chr appuid set succeeded
+05-16 01:43:05.798  2451  3370 I Hicom_Monitor: notifyAppStarted: uid = 10360
+05-16 01:43:05.798  2451  3370 I UctpAppMonitor: handleAppStarted: pkgName is com.mars.infra.trace mIsNeedToOpen is false
+05-16 01:43:05.798  2451  3370 I AppStatisticProc: handleAppStarted: pkgName = com.mars.infra.trace is not apk supported in Smartcare
+05-16 01:43:05.799 29228 29228 D HiTraceC: entered HiTraceInit, Log Registered: 1
+05-16 01:43:05.799   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.801   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.801   746 15352 D AudioPolicyService: getUidState(10360) !cacheIter->second.first, return PROCESS_STATE_UNKNOWN
+05-16 01:43:05.801   746 15352 D AudioPolicyService: getUidState(10360) cacheIter->second.first, return cacheIter->second.second(-1)
+05-16 01:43:05.803  1834  1985 I HwNetworkPolicy: onTransact, code = 203
+05-16 01:43:05.804  2752  3526 I HwNetworkPolicyManager: getHwUidPolicy uid = 10360 policy = 0
+05-16 01:43:05.805  1834  2975 I PackageManager: getInstalledPackages cost 3 ms, flags: 786432, userId: 0, callingUid: 2000, callingPid: 29228
+05-16 01:43:05.806  2648  3523 I ScenarioService: app focus change from: com.huawei.android.launcher to:com.mars.infra.trace
+05-16 01:43:05.806  2648  3523 I ScenarioService: add focus on app:com.mars.infra.trace to visiblePkgs
+05-16 01:43:05.806  1094  1176 D AAL     : onBacklightChanged: 108/1023 -> 119/1023(phy:238/4095)
+05-16 01:43:05.806  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.806   982 11845 D ITouchService: itouch stylusCurrentPkgName = com.mars.infra.trace lastOneFramePkgName = 
+05-16 01:43:05.807   982 11845 D ITouchService: itouch currentPackageName = com.mars.infra.trace
+05-16 01:43:05.807   982 11845 D ITouchService: itouch appType=-1 appState=1 gameMode=2
+05-16 01:43:05.807   982 11845 D ITouchService: itouchReaderMonitor empty
+05-16 01:43:05.807   982 11845 D ITouchService: g_itouch_reader_monitor Monitor::IsReaderMonitorEnable()=0
+05-16 01:43:05.807   982 11845 D ITouchService: itouch getCurrentParmID tempPkg=com.mars.infra.xxx
+05-16 01:43:05.807   982 11845 D ITouchService: itouch:app com.mars.infra.trace is  not game app
+05-16 01:43:05.807   982 11845 D ITouchService: itouch:app com.mars.infra.trace is  not in StylusPenList
+05-16 01:43:05.807   982 11845 D ITouchService: itouch:styluspen_switch is disable
+05-16 01:43:05.807   982 11845 D ITouchService: itouch:currentAppTypeName =|UNKNOWN|
+05-16 01:43:05.814  1834  2128 I HwAudioService: now type = -1,reportForegroundAppType = -1systemload = -1VOIP_OPTIMIZE_IN_GAMEMODEfalse
+05-16 01:43:05.816   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.816   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.817   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.817   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.822  2648  5153 I PGServer: getTopFrontApp. calling pkg: android
+05-16 01:43:05.822  1094  1176 D AAL     : onBacklightChanged: 119/1023 -> 130/1023(phy:260/4095)
+05-16 01:43:05.822  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.823  1094  1176 D AAL     : 05-16 01:43:05.757 BL=  87,ESS= 256, 05-16 01:43:05.773 BL=  97,ESS= 256, 05-16 01:43:05.790 BL= 108,ESS= 256, 05-16 01:43:05.806 BL= 119,ESS= 256, 05-16 01:43:05.823 BL= 130,ESS= 256, 
+05-16 01:43:05.829 29232 29232 D HiTraceC: entered HiTraceInit, Log Registered: 1
+05-16 01:43:05.832   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.832   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.832  1064  1088 E AwareLog: iawared: GetFileContent open /proc/29232/task/29234/cpuset fail errno(2)!
+05-16 01:43:05.832  1064  1088 W         : Failed to SetQosByThread, ret=-1, tid=29234, desired=1
+05-16 01:43:05.833   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.833   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.834  1064  1088 E AwareLog: iawared: GetFileContent open /proc/29232/task/29235/cpuset fail errno(2)!
+05-16 01:43:05.834  1064  1088 W         : Failed to SetQosByThread, ret=-1, tid=29235, desired=1
+05-16 01:43:05.837   704 17882 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:11.870766,dur:1010.89,max:833.77,min:7.94  
+05-16 01:43:05.839  1094  1176 D AAL     : onBacklightChanged: 130/1023 -> 141/1023(phy:282/4095)
+05-16 01:43:05.839  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.848   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.848   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.849   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.849   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.855  1094  1176 D AAL     : onBacklightChanged: 141/1023 -> 152/1023(phy:304/4095)
+05-16 01:43:05.856  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.864   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.865   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.865   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.865   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.868  2686  3030 I HwLauncher: LocalTaskList loadTasksInBackground:1 numTasks:3 currentUserId:0
+05-16 01:43:05.872  1094  1176 D AAL     : onBacklightChanged: 152/1023 -> 163/1023(phy:326/4095)
+05-16 01:43:05.872  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.881   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.881   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.882   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.882   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.889  1094  1176 D AAL     : onBacklightChanged: 163/1023 -> 174/1023(phy:348/4095)
+05-16 01:43:05.889  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.894  1834  2065 I TrafficMonitor: expired arrive. level:-1
+05-16 01:43:05.894  1834  2065 I TrafficMonitor: during_ms:2006,period_ms:2000
+05-16 01:43:05.894  1834  2065 I TrafficMonitor: count:321,rx_sum:1,tx_sum:0,rxBytes:76,during_ms:2006,rx_speed:37.8863409770688,tx_speed:0.0,rto:0.0
+05-16 01:43:05.894  1834  2065 I HuaweiWifiWatchdogStateMachine: Get speed information rx_speed = 37 ,tx_speed = 0 ,isSpeedOk = false ,mBestSpeedInPeriod = 37
+05-16 01:43:05.898   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.898   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.898   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.898   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.905  1094  1176 D AAL     : onBacklightChanged: 174/1023 -> 185/1023(phy:370/4095)
+05-16 01:43:05.905  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.905  1094  1176 D AAL     : 05-16 01:43:05.839 BL= 141,ESS= 256, 05-16 01:43:05.856 BL= 152,ESS= 256, 05-16 01:43:05.872 BL= 163,ESS= 256, 05-16 01:43:05.889 BL= 174,ESS= 256, 05-16 01:43:05.905 BL= 185,ESS= 256, 
+05-16 01:43:05.907  2648  3523 I ScenarioService: refresh visibleApp:[com.mars.infra.trace]
+05-16 01:43:05.907  2648  3523 I PGServer: report state:14 event type:1 pid:-1 uid:-1 pkg:com.mars.infra.trace to pid: 2648
+05-16 01:43:05.907  2648  3523 I ApsAppsTypeHandler: APS: APK: ApsAppsTypeHandler.getInstance, sInstance = com.huawei.android.hwaps.o@72c8c2b
+05-16 01:43:05.907  2648  3523 I ApsAccKitAdapter: APS: APK: ApsAccKitAdapter: not setNotifyInfo
+05-16 01:43:05.907  2648  3658 I PG_ash  : com.huawei.android.launcher become invisible
+05-16 01:43:05.914   743   779 I libPowerHal: [PD] scn:61 hdl:12 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:05.914   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.914   743   779 I libPowerHal: iawareperf@1.0-: hard user limit set cpu freq: 1750000 -1 1993000 -1
+05-16 01:43:05.915   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.915   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.915   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.922  1094  1176 D AAL     : onBacklightChanged: 185/1023 -> 196/1023(phy:392/4095)
+05-16 01:43:05.922  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.931   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.931   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.932   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.932   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.938  1094  1176 D AAL     : onBacklightChanged: 196/1023 -> 207/1023(phy:414/4095)
+05-16 01:43:05.938  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.945 29199 29219 I HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.mars.infra.trace#10360#256
+05-16 01:43:05.945 29199 29219 I HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=0 newCnt=1
+05-16 01:43:05.946 29199 29199 I HwActivityThreadImpl: accept socket mSocketName: bb91e324-7fa9-4790-b797-08bc5398846e
+05-16 01:43:05.946 29199 29199 I HwActivityThreadImpl: accept socket end
+05-16 01:43:05.946 29199 29199 W HwActivityThreadImpl: closeStream error.
+05-16 01:43:05.946 29199 29217 W HwActivityThreadImpl: closeStream error.
+05-16 01:43:05.946 29199 29199 I HwActivityThreadImpl: acceptPreloadedApplication end mPreloadStatus 3
+05-16 01:43:05.946 29199 29217 I HwActivityThreadImpl: connectContinuePreload end mPreloadStatus 3
+05-16 01:43:05.947 29199 29219 I HwApiCacheMangerEx: apicache path=/storage/emulated/0 state=mounted key=com.mars.infra.trace#10360#0
+05-16 01:43:05.947 29199 29219 I HwApiCacheMangerEx: need clear apicache,because volumes changed,oldCnt=1 newCnt=1
+05-16 01:43:05.948   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.948   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.948 29199 29199 I HwTypeface: updateFont: scale=1.0
+05-16 01:43:05.948   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.948   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.949 29199 29199 D SystemFonts: areFontsVariable: script=Hans
+05-16 01:43:05.949 29199 29199 I ActivityThread: finishPreloaded preloadStatus 3
+05-16 01:43:05.950  1834  2128 D ActivityManager: finishBindApplication callingPid 29199
+05-16 01:43:05.950  1834  2128 D ActivityManager: finishBindApplication preloadStatus: 0 app: ProcessRecord{6a255f5 29199:com.mars.infra.trace/u0a360} uidRec.isPreload: false
+05-16 01:43:05.950 29199 29199 I ActivityThread: finishPreloaded end preloadStatus 3
+05-16 01:43:05.953 29199 29238 E AwareLog: AtomicFileUtils: readFileLines file not exist: android.util.AtomicFile@7610ed
+05-16 01:43:05.954 29199 29219 I HwPartIawareFactory: add android.common.HwPartIawareFactoryImpl to memory.
+05-16 01:43:05.954 29199 29219 I AwareBitmapCacher: init processName:com.mars.infra.trace pid=29199 uid=10360
+05-16 01:43:05.955  1094  1176 D AAL     : onBacklightChanged: 207/1023 -> 217/1023(phy:434/4095)
+05-16 01:43:05.955  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.956 29199 29199 D OpenGLRenderer: disableOutlineDraw is true
+05-16 01:43:05.958 29199 29240 I OpenGLRenderer: RenderThread: progress name = [com.mars.infra.trace], viewCornerType = 0
+05-16 01:43:05.959 29199 29242 D libMEOW : meow reload base cfg path: na
+05-16 01:43:05.959 29199 29242 D libMEOW : meow reload overlay cfg path: na
+05-16 01:43:05.959 29199 29242 D libMEOW : applied 0 plugin for [com.mars.infra.trace].
+05-16 01:43:05.959 29199 29242 I iGraphics: [0020080c] pn: com.mars.infra.trace, p: 29199
+05-16 01:43:05.959 29199 29242 I iGraphics: [0030080c] no spt app: com.mars.infra.trace
+05-16 01:43:05.964   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.964   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.965   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.965   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.971  1094  1176 D AAL     : onBacklightChanged: 217/1023 -> 228/1023(phy:456/4095)
+05-16 01:43:05.971  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.981   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.981   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.982   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.982   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:05.988  1094  1176 D AAL     : onBacklightChanged: 228/1023 -> 239/1023(phy:478/4095)
+05-16 01:43:05.988  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:05.988  1094  1176 D AAL     : 05-16 01:43:05.922 BL= 196,ESS= 256, 05-16 01:43:05.938 BL= 207,ESS= 256, 05-16 01:43:05.955 BL= 217,ESS= 256, 05-16 01:43:05.971 BL= 228,ESS= 256, 05-16 01:43:05.988 BL= 239,ESS= 256, 
+05-16 01:43:05.997   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:05.997   731   731 D lights  : write_int open fd=6
+05-16 01:43:05.997  1834  2975 V ActivityManager: Successfully start provider ContentProviderRecord{ac6ac80 u0 com.android.providers.settings/.hwext.HwSettingsProvider} launchingApp=null caller pid= 29199
+05-16 01:43:05.998   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:05.998   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:06.003 29199 29199 V ActivityThread: callActivityOnCreate
+05-16 01:43:06.004   675 26102 I netd    : trafficSwapActiveStatsMap() <0.63ms>
+05-16 01:43:06.005  1094  1176 D AAL     : onBacklightChanged: 239/1023 -> 250/1023(phy:500/4095)
+05-16 01:43:06.005  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.000   994   994 W BatteryHandler: type=1400 audit(0.0:221309): avc: denied { read } for pid=994 name="temp" dev="sysfs" ino=41501 scontext=u:r:dubaid:s0 tcontext=u:object_r:sysfs_pg:s0 tclass=lnk_file permissive=0
+05-16 01:43:06.006   675 26102 I netd    : trafficSwapActiveStatsMap() <0.20ms>
+05-16 01:43:06.014   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:06.014   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:06.014   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.014   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.015 29199 29199 E gy      : onCreate invoke
+05-16 01:43:06.015 29199 29199 D AndroidRuntime: Shutting down VM
+05-16 01:43:06.015 29199 29199 I QarthLog: [PatchStore] createDisableExceptionQarthFile
+05-16 01:43:06.015 29199 29199 I QarthLog: [PatchStore] create disable file for com.mars.infra.trace uid is 10360
+--------- beginning of crash
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: FATAL EXCEPTION: main
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: Process: com.mars.infra.trace, PID: 29199
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: java.lang.NoSuchMethodError: No super method execute()V in class Lcom/mars/infra/generate/Fusion_androidx_appcompat_app_AppCompatActivity; or its super classes (declaration of 'com.mars.infra.generate.Fusion_androidx_appcompat_app_AppCompatActivity' appears in /data/app/com.mars.infra.trace-5qYcUG2DKs09UvosGGDsmA==/base.apk)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at com.mars.infra.generate.Fusion_androidx_appcompat_app_AppCompatActivity.onCreate(Unknown Source:10)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at com.mars.infra.fusion.MainActivity.onCreate(Unknown Source:8)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8214)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8202)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1320)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4033)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4247)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:91)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:149)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:103)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2613)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:110)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:219)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8668)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:513)
+05-16 01:43:06.016 29199 29199 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1109)
+05-16 01:43:06.020  1834  2010 I ActivityManager: sendIntentSender target:PendingIntentRecord{ab86724 android broadcastIntent}, intent:flg=0x4 hwFlg=0x810
+05-16 01:43:06.020  1834  2128 W ActivityManager: Process com.mars.infra.trace has crashed too many times: killing!
+05-16 01:43:06.020  1834  2128 W ActivityTaskManager:   handleAppCrashLocked Force finishing activity com.mars.infra.trace/com.mars.infra.fusion.MainActivity
+05-16 01:43:06.020  1834  2010 E HwActivityTaskManagerServiceEx: isNeedInterceptStart isNeedInterceptAlarm getPackageUid exception
+05-16 01:43:06.020  1834 29244 I DropBoxManagerService: add tag=data_app_crash isTagEnabled=true flags=0x2
+05-16 01:43:06.020  1834  2128 E HwActivityTaskManagerServiceEx: invalid ActivityRecord, error.
+05-16 01:43:06.020  1834  2128 E HwActivityTaskManagerServiceEx: parse activity info error.
+05-16 01:43:06.020  1834  2128 I WindowManager: removeWindowToken: displayid:0 binder:Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313 f}} token:AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}
+05-16 01:43:06.020  1834  2128 V WindowManager: commitVisibility: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}: hidden=true hiddenRequested=true
+05-16 01:43:06.021  1834  2128 W WindowManager: Failed to take screenshot. App is animating AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}
+05-16 01:43:06.021  1094  1176 D AAL     : onBacklightChanged: 250/1023 -> 261/1023(phy:522/4095)
+05-16 01:43:06.021  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.021  1834  2128 V WindowManager: removeAppToken: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} delayed=true Callers=com.android.server.wm.DisplayContent.removeAppToken:1320 com.android.server.wm.ActivityRecord.removeWindowContainer:1446 com.android.server.wm.ActivityStack.removeActivityFromHistoryLocked:5542 com.android.server.wm.ActivityStack.destroyActivityLocked:5799 com.android.server.wm.ActivityStack.finishCurrentActivityLocked:5225 com.android.server.wm.ActivityStack.handleAppCrash:6557 com.android.server.wm.RootActivityContainer.handleAppCrash:1926 com.android.server.wm.ActivityTaskManagerService$LocalService.onHandleAppCrash:8427 com.android.server.am.AppErrors.handleAppCrashLocked:775 
+05-16 01:43:06.021  1834  2128 V WindowManager: removeAppToken make exiting: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}}
+05-16 01:43:06.022  1834  2128 I TaskSnapshot: taskId:313 Callers=com.android.server.wm.TaskSnapshotCache.removeRunningEntry:196 com.android.server.wm.TaskSnapshotCache.onTaskRemoved:176 com.android.server.wm.TaskSnapshotController.notifyTaskRemovedFromRecents:749 com.android.server.wm.WindowManagerService.notifyTaskRemovedFromRecents:7189 com.android.server.wm.TaskRecord.removedFromRecents:1202 com.android.server.wm.ActivityStackSupervisor.onRecentTaskRemoved:2283 com.android.server.wm.RecentTasks.notifyTaskRemoved:452 com.android.server.wm.RecentTasks.remove:1251 
+05-16 01:43:06.022  1834  2128 V ActivityTaskManager: positionChild stackId=0 to top.
+05-16 01:43:06.023  9635 25914 I CAWARENESS_AppUsageManager: Repeat info, don't need publish
+05-16 01:43:06.024  1834 29243 I QarthDisFileCreator: pattern not match
+05-16 01:43:06.030  1834  2128 V ActivityTaskManager: removeChild: detaching stackId=301 from displayId=0
+05-16 01:43:06.031   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:06.031   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:06.031   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.032   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.033  1834  2128 W HwActivityTaskManagerServiceEx: setResumedActivityUncheckLocked start call, from: ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t-1 f}, to: ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+05-16 01:43:06.033  2686  2686 D ActivityThread: Won't deliver top position change in state=4
+05-16 01:43:06.033  1834  2128 W HwActivityTaskManagerServiceEx: appSwitch from: com.mars.infra.trace to: com.huawei.android.launcher
+05-16 01:43:06.034  2451 28718 I AssistantService-11.2.1.200: registerHwActivityNotifier call fromPackage:com.mars.infra.trace, toPackage:com.huawei.android.launcher
+05-16 01:43:06.034  1834  2128 I WindowManager: Changing focus from null to Window{8c63ef1 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:209 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6517 com.android.server.wm.ActivityDisplay.setFocusedApp:1593 com.android.server.wm.ActivityTaskManagerService.setResumedActivityUncheckLocked:6561 
+05-16 01:43:06.034  2451  3311 I Hicom_Monitor: mAppSwitchNotifierEx. uid: 10065, foreground app: com.huawei.android.launcher, foreground activity: com.huawei.android.launcher.unihome.UniHomeLauncher
+05-16 01:43:06.034  2451 13434 D AssistantService-11.2.1.200: handleMessage app switch fromPackage:com.mars.infra.trace, toPackage:com.huawei.android.launcher
+05-16 01:43:06.034  2451  3311 D SmartcareProc: onForegroundAppChanged, pkgName:com.huawei.android.launcher, uid: 10065
+05-16 01:43:06.034  2451  3311 D SmartcareProc: handlerAppForeground not match
+05-16 01:43:06.035  2451  3311 W FiControl: Failed to find configuration for com.huawei.android.launcher
+05-16 01:43:06.035  1834  2163 I WiFi_PRO_WifiProStateMachine: current app com.huawei.android.launcher, has changed
+05-16 01:43:06.035  1834  2163 I WiFi_PRO_WifiProStateMachine: not in RecommendWifi2CellState.
+05-16 01:43:06.035  2451  3370 I Hicom_XEngineProc: handleForegroundAppChanged pkgName = com.huawei.android.launcher
+05-16 01:43:06.035  1834  1869 D HwGameAssistantController: UPDATE: mCurFgPkg=com.huawei.android.launcher, mCurFgPid=2686, mIsCurGame=false
+05-16 01:43:06.035  2686 13840 W HwLauncher: ExitAppAnimationManager getAnimationInfoMyself, mAnimationInfo = com.huawei.android.launcher.exitapp.ExitAppAnimationManager$AnimationInfo@b88e233
+05-16 01:43:06.035  2451  3370 W Hicom_XEngineProc: sendForegroundMessageToDaemon. daemonCommand is null
+05-16 01:43:06.035  2686  2686 W HwLauncher: RotationHelper hideAdjacentScreen, launcher is not transposed. RotationMode = com.huawei.android.launcher.graphics.RotationMode$1{b5d00b0 surfaceRotation = 0.0,isTransposed = false}
+05-16 01:43:06.036  1834  2128 I HwDisplayContentEx: currentFocus windowstate not null
+05-16 01:43:06.036  1834  1856 D StatusBarManagerService: win:Window{8c63ef1 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}mIsColorEnable:truelight:false
+05-16 01:43:06.036  1834  2128 D ZrHung.AppEyeFocusWindow: FocusWindowErrorScene cancelCheckFreezeScreen
+05-16 01:43:06.036  1834  2128 I HwDisplayContentEx: trans currentFocus windowstate not null
+05-16 01:43:06.036  1834  2128 D ZrHung.AppEyeTransparentWindow: TransparentWindow mHungConfigStatus = 0,mHungConfigEnable = 1
+05-16 01:43:06.036  1834  1856 I StatusBarDisable: setFlags what=0 which=1 pkg=Window{8c63ef1 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+05-16 01:43:06.036  2256  9001 D HwCommandQueue: CommandQueue, set Launcher StatusBar Color
+05-16 01:43:06.036 26597 29079 I HiAdKit.DC.PersistentMessageCenter:  notifyMessage com.huawei.hwid_app_switch_from_to_intent
+05-16 01:43:06.036  1834  1985 I HwWindowManagerServiceEx: set app win exit info, bundle = Bundle[mParcelledData.dataSize=288], iconBitmap = android.graphics.Bitmap@6afa153
+05-16 01:43:06.036  1834  1985 D HwWindowManagerServiceEx: AnimationTurbo wms set setIconToLayer exit icon
+05-16 01:43:06.036  1834  1985 D HwWindowManagerServiceEx: set app win icon info, bundle = Bundle[{isLandscape=false, launcherPkgName=com.huawei.android.launcher, iconWidth=180, pivotX=666.0, pivotY=1832.0, iconHeight=180, flag=0}], iconBitmap = android.graphics.Bitmap@6afa153mExitPivotX =666.0mExitPivotY =1832.0floatBallSize = 0.0mExitIconWidth =180mExitIconHeight =180mExitFlag =0callingUid10065
+05-16 01:43:06.037  1834  2128 I ActivityTaskManager: Making visible and scheduling visibility: ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+05-16 01:43:06.038  1834  2128 I HwWindowManagerServiceEx: setLandAnimationInfo : false
+05-16 01:43:06.038  1094  1176 D AAL     : onBacklightChanged: 261/1023 -> 272/1023(phy:544/4095)
+05-16 01:43:06.038  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.041  2686  2686 I ActivityThread: Handle window ActivityRecord{a769a39 token=android.os.BinderProxy@8a2ab2c {com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}} visibility: true
+05-16 01:43:06.043  1834  2128 I WindowManager: dispatchResized : win = Window{8c63ef1 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher} drawState = DRAW_PENDING
+05-16 01:43:06.044  1834  2128 V WindowManager: notifyAppResumed: wasStopped=false AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}
+05-16 01:43:06.046   743   779 I libPowerHal: [PE] scn:61 hdl:12 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:06.046   743   779 I libPowerHal: iawareperf@1.0-: set gpu opp level max: 0
+05-16 01:43:06.046   743   779 I libPowerHal: iawareperf@1.0-: hard user limit set cpu freq: 1750000 -1 1993000 -1
+05-16 01:43:06.048   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:06.048  1834  1859 I ViewRootImpl: dispatchDetachedFromWindow in doDie
+05-16 01:43:06.048   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:06.048  1834  2128 I ActivityManager: Killing 29199:com.mars.infra.trace/u0a360 (adj 0): crash
+05-16 01:43:06.049   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.049  1834  2128 D ActivityManager: cleanUpApplicationRecord app: 29199:com.mars.infra.trace/u0a360, bad: true, restarting: false, allowRestart: false
+05-16 01:43:06.049  1834  2094 W HwAudioServiceEx: SoundEffectState bundle get reserved is invalid
+05-16 01:43:06.049  1834  1868 I HwPowerManagerService: appdie release wakelock, pid = 29199, uid = 10360
+05-16 01:43:06.049   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.050  1834  1859 I WindowManager: removeIfPossible: Window{1f5a665 u0 Splash Screen com.mars.infra.trace EXITING} callers=com.android.server.wm.WindowState.removeIfPossible:2602 com.android.server.wm.WindowManagerService.removeWindow:2282 com.android.server.wm.Session.remove:179 android.view.ViewRootImpl.dispatchDetachedFromWindow:4910 android.view.ViewRootImpl.doDie:8254 
+05-16 01:43:06.051  1834  1859 I WindowManager: Not removing Window{1f5a665 u0 Splash Screen com.mars.infra.trace EXITING} due to exit animation 
+05-16 01:43:06.051  1834  1877 I libprocessgroup: Successfully killed process cgroup uid 10360 pid 29199 in 0ms
+05-16 01:43:06.053  1834  1859 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+05-16 01:43:06.053  1834  1859 I WindowManager: Check opening app=AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+05-16 01:43:06.053  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:06.054  1094  1176 D AAL     : onBacklightChanged: 272/1023 -> 283/1023(phy:566/4095)
+05-16 01:43:06.054  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.055  1834  1859 I WindowManager: Animation done in AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}} isHidden:true hiddenRequested:false
+05-16 01:43:06.055  1834  1859 I WindowManager: Animation done in AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting= isHidden:true hiddenRequested:true
+05-16 01:43:06.055  1834  1859 I WindowManager: Exit animation finished in Window{1f5a665 u0 Splash Screen com.mars.infra.trace EXITING}: remove=true
+05-16 01:43:06.055  1834  1859 E WindowManager: win=Window{1f5a665 u0 Splash Screen com.mars.infra.trace EXITING} destroySurfaces: appStopped=false win.mWindowRemovalAllowed=true win.mRemoveOnExit=true
+05-16 01:43:06.056  2648  3523 I ScenarioService: app focus change from: com.mars.infra.trace to:com.huawei.android.launcher
+05-16 01:43:06.056  2648  3523 I ScenarioService: add focus on app:com.huawei.android.launcher to visiblePkgs
+05-16 01:43:06.056  2648  3523 D ScenarioService: front pkg : com.huawei.android.launcher launcher: true
+05-16 01:43:06.056  2648  3658 I PG_ash  : front pkg : com.huawei.android.launcher
+05-16 01:43:06.056  2648  3523 I AppsUsage: scnOff:false FgAPP:com.huawei.android.launcher BgAPP:com.mars.infra.trace
+05-16 01:43:06.056  2648  3737 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.mars.infra.trace to pid: 1834
+05-16 01:43:06.057  2648  3737 I PGServer: report state:10000 event type:2 pid:0 uid:0 pkg:com.mars.infra.trace to pid: 2648
+05-16 01:43:06.057  2648  3737 I SceneReceiver: state type: 10000 eventType:2 pid:0 uid:0 pkg:com.mars.infra.trace
+05-16 01:43:06.057  2648  3737 I PGServer: report state:10010 event type:1 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 1834
+05-16 01:43:06.057  2648  3737 I PGServer: report state:10010 event type:1 pid:0 uid:0 pkg:com.huawei.android.launcher to pid: 2648
+05-16 01:43:06.057  2648  3737 I ApsAppsTypeHandler: APS: APK: ApsAppsTypeHandler.getInstance, sInstance = com.huawei.android.hwaps.o@72c8c2b
+05-16 01:43:06.057  2648 30280 I PGServer: checkPkgType. calling pkg: android
+05-16 01:43:06.057  1834  2975 I HwBastetService: current len less then 0, need return!
+05-16 01:43:06.057  1834  2975 I DE J DES: [effect] Pg pkg:com.huawei.android.launcher
+05-16 01:43:06.057  1834  1859 I WindowManager: postWindowRemoveCleanupLocked: Window{1f5a665 u0 Splash Screen com.mars.infra.trace}
+05-16 01:43:06.057  1834  1859 I WindowManager: Removing Window{1f5a665 u0 Splash Screen com.mars.infra.trace} from AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=
+05-16 01:43:06.057  1834  2975 I HwBastetService: current len less then 0, need return!
+05-16 01:43:06.057  2648  3737 I SceneReceiver: state type: 10010 eventType:1 pid:0 uid:0 pkg:com.huawei.android.launcher
+05-16 01:43:06.060  2648  5154 W ThermalTraceTool: IOException:java.io.IOException: read failed: EIO (I/O error)
+05-16 01:43:06.062  1834  1859 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+05-16 01:43:06.062  1834  1859 I WindowManager: Check opening app=AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=false startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+05-16 01:43:06.063   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.064   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.065   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:06.065   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:06.066  4835  4835 I PushLog110108302: [main-1]action is com.huawei.push.intent.NC_SWITCH_CHANGED
+05-16 01:43:06.066   746 15352 D AudioPolicyService: getUidState(10360) cacheIter->second.first, return cacheIter->second.second(2)
+05-16 01:43:06.067  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:06.068   746 15352 D AudioPolicyService: getUidState(10360) !cacheIter->second.first, return PROCESS_STATE_UNKNOWN
+05-16 01:43:06.068  2686  2686 I HwLauncher: Model loadWidgetsAfterUserUnlockIfNeeded, sLoadWidgetOnResume is false!
+05-16 01:43:06.068  4835  4835 I PushLog110108302: [main-1]dispatchIntent over
+05-16 01:43:06.069  1834  2975 V BroadcastQueue: Finished with ordered broadcast BroadcastRecord{5772f89 u0 com.huawei.push.intent.NC_SWITCH_CHANGED}
+05-16 01:43:06.069   676   676 I Zygote  : Process 29199 exited due to signal 9 (Killed)
+05-16 01:43:06.070  1834  1859 I WindowManager: Checking 1 opening apps (frozen=false timeout=false)...
+05-16 01:43:06.070  1834  1859 I WindowManager: Check opening app=AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: allDrawn=true startingDisplayed=false startingMoved=false isRelaunching()=false startingWindow=null
+05-16 01:43:06.070  1834  1859 I WindowManager: Checking 0 opening apps (frozen=false timeout=false)...
+05-16 01:43:06.070  1094  1176 D AAL     : onBacklightChanged: 283/1023 -> 294/1023(phy:588/4095)
+05-16 01:43:06.070  1834  1859 I WindowManager: send SET_LAUNCHER_VISIBLE_IN_FINGER_BOOST visible: true,delay:0, handle:true, userId:0, callingPid: 1834
+05-16 01:43:06.070  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.070  1834  1859 I HwWindowManagerServiceEx: closing apps count = 1
+05-16 01:43:06.071  1834  1859 D HwWindowManagerServiceEx: is app exit to launcher info: transit = 26, app = AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=, window = null, mClosingApps = {AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=}, topOpeningApp = AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}, mExitIconBitmap = android.graphics.Bitmap@6afa153, mExitIconHeight = 180, mExitIconWidth = 180
+05-16 01:43:06.071  1094  1176 D AAL     : 05-16 01:43:06.005 BL= 250,ESS= 256, 05-16 01:43:06.021 BL= 261,ESS= 256, 05-16 01:43:06.038 BL= 272,ESS= 256, 05-16 01:43:06.054 BL= 283,ESS= 256, 05-16 01:43:06.071 BL= 294,ESS= 256, 
+05-16 01:43:06.071  1834  1859 V WindowManager: commitVisibility: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=: hidden=true hiddenRequested=true
+05-16 01:43:06.071  1834  1859 I WindowManager: Animation done in AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting= isHidden:true hiddenRequested:true
+05-16 01:43:06.071  1834  1859 D HwWindowManagerServiceEx: is app exit to launcher info: transit = 26, app = AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}, window = Window{8c63ef1 u0 com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}, mClosingApps = {AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=}, topOpeningApp = AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}, mExitIconBitmap = android.graphics.Bitmap@6afa153, mExitIconHeight = 180, mExitIconWidth = 180
+05-16 01:43:06.071  1834  1859 E WindowManager: icon is null!!
+05-16 01:43:06.071  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.quark.browser, userId: 0
+05-16 01:43:06.072  1834  1859 V WindowManager: commitVisibility: AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}}: hidden=false hiddenRequested=false
+05-16 01:43:06.072  1834  1859 I WindowManager: Animation done in AppWindowToken{78f3d1c token=Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}} isHidden:false hiddenRequested:false
+05-16 01:43:06.072  1834  1859 W WindowManager: Failed to take screenshot. No visible windows for {taskId=313 appTokens=[AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=] mdr=true}
+05-16 01:43:06.072  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:false
+05-16 01:43:06.073  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.quark.browser sys nc switch is: false, app nc siwtch is true, status is: 00
+05-16 01:43:06.073  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.huawei.browser, userId: 0
+05-16 01:43:06.073  1834  1859 V WindowManager: commitVisibility: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=: hidden=true hiddenRequested=true
+05-16 01:43:06.073  1834  1859 I WindowManager: Animation done in AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting= isHidden:true hiddenRequested:true
+05-16 01:43:06.073  1834  1859 W WindowManager: Failed to take screenshot. No visible windows for {taskId=313 appTokens=[AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting=] mdr=false}
+05-16 01:43:06.073  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:false
+05-16 01:43:06.073  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.huawei.browser sys nc switch is: false, app nc siwtch is true, status is: 00
+05-16 01:43:06.073   743   779 I libPowerHal: [PE] scn:62 hdl:13 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:06.073  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.huawei.hwireader, userId: 0
+05-16 01:43:06.073  1834  1859 V WindowManager: removeAppToken: AppWindowToken{6c4ead token=Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t313}}} mIsExiting= delayed=false Callers=com.android.server.wm.AppWindowToken.removeImmediately:1193 com.android.server.wm.WindowContainer.removeImmediately:370 com.android.server.wm.Task.removeImmediately:277 com.android.server.wm.WindowContainer.removeImmediately:370 com.android.server.wm.TaskStack.removeImmediately:1063 com.android.server.wm.TaskStack.checkCompleteDeferredRemoval:2060 com.android.server.wm.WindowContainer.checkCompleteDeferredRemoval:743 com.android.server.wm.WindowContainer.checkCompleteDeferredRemoval:743 com.android.server.wm.DisplayContent.checkCompleteDeferredRemoval:3287 
+05-16 01:43:06.073   743   779 I libPowerHal: iawareperf@1.0-: set gpu opp level max: 0
+05-16 01:43:06.073  1834  1859 I WindowManager: removeWindowToken: displayid:0 binder:Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t-1 f}} token:null
+05-16 01:43:06.074  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:false
+05-16 01:43:06.074  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.huawei.hwireader sys nc switch is: false, app nc siwtch is true, status is: 00
+05-16 01:43:06.074  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.huawei.appmarket, userId: 0
+05-16 01:43:06.075  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:false
+05-16 01:43:06.075  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.huawei.appmarket sys nc switch is: false, app nc siwtch is true, status is: 00
+05-16 01:43:06.075  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.autonavi.minimap, userId: 0
+05-16 01:43:06.076  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:false
+05-16 01:43:06.076  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.autonavi.minimap sys nc switch is: false, app nc siwtch is true, status is: 00
+05-16 01:43:06.076  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.huawei.android.tips, userId: 0
+05-16 01:43:06.073  1834  1859 I WindowManager: removeWindowToken: displayid:0 binder:Token{4707fc4 ActivityRecord{9afa56 u0 com.mars.infra.trace/com.mars.infra.fusion.MainActivity t-1 f}} token:null
+05-16 01:43:06.077  1834  2955 I ActivityTaskManager: Stop interception for recently back-home app when launcher resumed
+05-16 01:43:06.077  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:false
+05-16 01:43:06.078  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.huawei.android.tips sys nc switch is: false, app nc siwtch is true, status is: 00
+05-16 01:43:06.078  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.wuba, userId: 0
+05-16 01:43:06.078  1834  1868 I HwAudioServiceEx: ComponentInfo : className = com.huawei.android.launcher.unihome.UniHomeLauncher, flag = onResume, isHomeActivity = , isTop = true
+05-16 01:43:06.079  1834  2094 W HwAudioServiceEx: SoundEffectState bundle get reserved is invalid
+05-16 01:43:06.080   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.081   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.081  1105  1303 E Parcel  : Reading a NULL string not supported here.
+05-16 01:43:06.081  1105  1303 I chatty  : uid=0(root) smart_parser identical 1 line
+05-16 01:43:06.081  1105  1303 E Parcel  : Reading a NULL string not supported here.
+05-16 01:43:06.081  9635 25914 I CAWARENESS_AppUsageManager: Repeat info, don't need publish
+05-16 01:43:06.081  2451  3311 I Hicom_Monitor: mActivityNotifierEx, className = com.huawei.android.launcher.unihome.UniHomeLauncher, uid = 10065
+05-16 01:43:06.081  2531 21162 I OPCollectLog: AppChangeImpl:call onAppChange.
+05-16 01:43:06.082  2531 10191 I OPCollectLog: HwForegroundAppAction:handleMessage 
+05-16 01:43:06.082  2531 10191 D OPCollectLog: HwForegroundAppAction:FG executeWithArgs
+05-16 01:43:06.082  2531 10191 I OPCollectLog: OPCollectUtils:ODMF Api Version:2.16.3
+05-16 01:43:06.082   530   530 I hwservicemanager: getTransport: Cannot find entry vendor.huawei.hardware.graphics.hwcinterface@1.1::IHwcInterface/default in either framework or device manifest.
+05-16 01:43:06.082  2451  2748 D DollieActivityManagerAdapter: [Resumed] bg:false pid:2686 uid:10065 ComponentInfo{com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher}
+05-16 01:43:06.082   704 17882 W hwcomposer: [HWCTURBOMANAGER] init: IHwcInterface::tryGetService failed!  
+05-16 01:43:06.082  2451  2748 E DollieAdapterService: notifyActivityState pkg:com.huawei.android.launcher/com.huawei.android.launcher.unihome.UniHomeLauncher state:2 fg:true mUid:10065
+05-16 01:43:06.082  2531 10191 I OPCollectLog: Action:HwForegroundAppAction executed successfully
+05-16 01:43:06.082  2451  2748 I OllieMsgCenter: publishEvt=2130771985
+05-16 01:43:06.082  2531 10191 D OPCollectLog: OdmfCollectScheduler:handleMessage msg: 4
+05-16 01:43:06.082  2531 10191 I OPCollectLog: OdmfHelper:opcollectCache 1
+05-16 01:43:06.082  2531 10191 I OPCollectLog: OdmfHelper:opcollectCache curTime: 1839243931, interval: 19990
+05-16 01:43:06.082  2451  2748 D ForegroundDataOpt: is APK changed:false uid:10065 mBgLimitLevel:0
+05-16 01:43:06.083  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:false
+05-16 01:43:06.083  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.wuba sys nc switch is: false, app nc siwtch is true, status is: 00
+05-16 01:43:06.083  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]getSwitchStatus packageName: com.huawei.wallet, userId: 0
+05-16 01:43:06.084  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]areNotificationsEnabledForPackage:true
+05-16 01:43:06.084  4835  4910 I PushLog110108302: [ReceiverDispatcher-223]com.huawei.wallet sys nc switch is: true, app nc siwtch is false, status is: 00
+05-16 01:43:06.086  1834  2529 V ActivityTaskManager: Activity idle: Token{64f768f ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}}
+05-16 01:43:06.087   743   779 I libPowerHal: [PD] scn:8 hint:LAUNCH
+05-16 01:43:06.087  1094  1176 D AAL     : onBacklightChanged: 294/1023 -> 305/1023(phy:610/4095)
+05-16 01:43:06.087  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.087   743   779 I libPowerHal: LAUNCH: cpu_ctrl set cpu freq: -1 -1 -1 -1
+05-16 01:43:06.087   743   779 I libPowerHal: [PD] LAUNCH update cmd:1000000, param:1
+05-16 01:43:06.088   743   779 I libPowerHal: [PD] LAUNCH update cmd:1408300 param:0
+05-16 01:43:06.088  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:06.088  1834  2407 W AwareLog: SysLoadManager: check status do nothing
+05-16 01:43:06.090  1834  2975 W         : Failed to UpdateQosForCgroupInner, tid=0, policy=10
+05-16 01:43:06.090  1834  2975 W         : Failed to UpdateQosForCgroupInner, tid=0, policy=10
+05-16 01:43:06.092  2451  3311 E HsmCoreServiceImpl: onTransact in code is: 102
+05-16 01:43:06.092  2451  3311 I MediaProcessHandler: processOp opType: 1, uid: 10360, pid: 29199
+05-16 01:43:06.092  2451  3311 W MediaProcessHandler: only the process it self can do this operation: 10360, 1000, 29199, 2752
+05-16 01:43:06.092  2451  3311 I MediaProcessHandler: executedCallBack opType: 1 mMediaStatusObservers.size=1
+05-16 01:43:06.093  2451  3370 I Hicom_Monitor: notifyAppDied: uid = 10360
+05-16 01:43:06.093  2451  3370 I UctpAppMonitor: handleAppDied: pkgName is com.mars.infra.trace mIsNeedToOpen is false
+05-16 01:43:06.093  2451  3370 I AppStatisticProc: handleAppDied: pkgName = com.mars.infra.trace is not apk supported in Smartcare
+05-16 01:43:06.093   746 15352 D AudioPolicyService: getUidState(10062) cacheIter->second.first, return cacheIter->second.second(20)
+05-16 01:43:06.093   746 15352 D AudioPolicyService: getUidState(10062) !cacheIter->second.first, return PROCESS_STATE_UNKNOWN
+05-16 01:43:06.094  2531 10191 I OPCollectLog: OdmfHelper:isCharging: true
+05-16 01:43:06.094  2686  2686 D DecorView: showOrHideHighlightView: hasFocus=true; winMode=1; isMrgNull=true
+05-16 01:43:06.094  1834  2030 W AwareLog: SchedLevelBoost: onProcessDied config not set!
+05-16 01:43:06.096  2686  2686 W HwRemoteInputMethodManager: isCasting false because IHwDistributedWindowManager is invalid.
+05-16 01:43:06.096  1834  2128 D HwInputMethodManagerService: isSecMethodUsing = false
+05-16 01:43:06.098   982 11845 D ITouchService: itouch stylusCurrentPkgName = com.mars.infra.trace lastOneFramePkgName = 
+05-16 01:43:06.098   982 11845 D ITouchService: itouch currentPackageName = com.mars.infra.trace
+05-16 01:43:06.098   982 11845 D ITouchService: itouch appType=-1 appState=0 gameMode=2
+05-16 01:43:06.098   982 11845 D ITouchService: itouchReaderMonitor empty
+05-16 01:43:06.098   982 11845 D ITouchService: g_itouch_reader_monitor Monitor::IsReaderMonitorEnable()=0
+05-16 01:43:06.098   982 11845 D ITouchService: itouch getCurrentParmID tempPkg=com.mars.infra.xxx
+05-16 01:43:06.098   982 11845 D ITouchService: itouch:app com.mars.infra.trace is  not game app
+05-16 01:43:06.098   982 11845 D ITouchService: itouch:app com.mars.infra.trace is  not in StylusPenList
+05-16 01:43:06.098   982 11845 D ITouchService: itouch:styluspen_switch is disable
+05-16 01:43:06.098   982 11845 D ITouchService: itouch:currentAppTypeName =|UNKNOWN|
+05-16 01:43:06.100  2531 10191 I OPCollectLog: OdmfHelper:insert database success 
+05-16 01:43:06.100  2531 10191 I OPCollectLog: OdmfHelper:opcollectCache size: 1
+05-16 01:43:06.100  2531 10191 I OPCollectLog: OdmfHelper:opcollectCache lastTime: 1839243948
+05-16 01:43:06.100  1834  1858 I WindowManager: handle SET_LAUNCHER_VISIBLE_IN_FINGER_BOOST visible:true handle:trueuserId:0, currentUserId:0
+05-16 01:43:06.100  1834  1858 D WindowManager: setLauncherVisibleInFingerBoost record=ActivityRecord{e34f1f0 u0 com.huawei.android.launcher/.unihome.UniHomeLauncher t1}
+05-16 01:43:06.100  1834  1858 I WindowManager: setLauncherVisible setAlpha to 1.0
+05-16 01:43:06.101  1834  1858 D WindowManager: setLauncherVisible wallpaperScale=false
+05-16 01:43:06.103  6831  7060 I HiDecision: OdmfCollectScheduler: OdmfCtrlMsgHandler receive msg type: 6
+05-16 01:43:06.103   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.103  1094  1176 D AAL     : 05-16 01:43:06.087 BL= 305,ESS= 256, 
+05-16 01:43:06.105   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.105  1834  1886 I PowerManagerService: handleSandman: wakefulness: 1,startDreaming: false
+05-16 01:43:06.112   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.112   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.120  1094  1176 D AAL     : onBacklightChanged: 305/1023 -> 327/1023(phy:654/4095)
+05-16 01:43:06.120  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.121  2686  3030 I HwLauncher: LocalTaskList loadTasksInBackground:0 numTasks:3 currentUserId:0
+05-16 01:43:06.122  1105  1305 I HiView  : Begin report 901001004
+05-16 01:43:06.122  1105  1305 I HiEvent : Flatten done: 901001004
+05-16 01:43:06.129   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.129   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.137  1094  1176 D AAL     : onBacklightChanged: 327/1023 -> 337/1023(phy:674/4095)
+05-16 01:43:06.137  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.145  1834  1886 I DisplayPowerController: mPowerState.mScreenChangedReason: 65539 mPendingRequestLocked.mScreenChangeReason 65539
+05-16 01:43:06.145  1834  1886 I DisplayPowerController: Animating brightness: target=46, rate=60,brightnessTargetReal=46,AutoBrightness=true
+05-16 01:43:06.145  1834  1886 D FpDataCollector: case xxx, not a fingerprint unlock 
+05-16 01:43:06.146   719   719 E DE H =DE: setAmoled:522: can not support this mode: MODE_AMOLED!
+05-16 01:43:06.146   731   731 D lights  : write_int open fd=6
+05-16 01:43:06.153  1094  1176 D AAL     : onBacklightChanged: 337/1023 -> 348/1023(phy:696/4095)
+05-16 01:43:06.153  1094  1176 D AAL     : LABC: LABC after setTarget isSmoothBacklight=0 
+05-16 01:43:06.155  2648  3523 I ScenarioService: refresh visibleApp:[com.huawei.android.launcher]
+05-16 01:43:06.156  2648  3523 I PGServer: report state:14 event type:1 pid:-1 uid:-1 pkg:com.huawei.android.launcher to pid: 2648
+05-16 01:43:06.156  2648  3523 I ApsAppsTypeHandler: APS: APK: ApsAppsTypeHandler.getInstance, sInstance = com.huawei.android.hwaps.o@72c8c2b
+05-16 01:43:06.156  2648  3523 I ApsAccKitAdapter: APS: APK: ApsAccKitAdapter: not setNotifyInfo
+05-16 01:43:06.156   982 11845 I AGPService: aps-info: focus pkgName - com.huawei.android.launcher, with 0 more apps
+05-16 01:43:06.156   982 11845 I AGPService: FrameRateManager: aps-info: new pkgName - com.huawei.android.launcher, type - 28
+05-16 01:43:06.156  2648  3658 I PG_ash  : com.mars.infra.trace become invisible
+05-16 01:43:06.156   982 11845 I AGPService: GpuPolicyManager: m_currentPkgName - com.huawei.android.launcher
+05-16 01:43:06.246   743   779 I libPowerHal: [PD] scn:61 hdl:12 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:06.246   743   779 I libPowerHal: iawareperf@1.0-: hard user limit set cpu freq: 1750000 -1 1993000 -1
+05-16 01:43:06.247   675 26102 I netd    : trafficSwapActiveStatsMap() <0.36ms>
+05-16 01:43:06.244   994   994 W BatteryHandler: type=1400 audit(0.0:221311): avc: denied { read } for pid=994 name="temp" dev="sysfs" ino=41501 scontext=u:r:dubaid:s0 tcontext=u:object_r:sysfs_pg:s0 tclass=lnk_file permissive=0
+05-16 01:43:06.249   675 26102 I netd    : trafficSwapActiveStatsMap() <0.17ms>
+05-16 01:43:06.274   743   779 I libPowerHal: [PD] scn:62 hdl:13 user:iawareperf@1.0- pid:728 tid:1000
+05-16 01:43:06.287   833   833 E afehal  : Write FW command: A0 03 02
+05-16 01:43:06.302   833   833 I aptouch_daemon: check_idle_status, idle in. 100
+05-16 01:43:06.407   982 11845 I AGPService: aps-info: focus pkgName - com.mars.infra.trace, with 0 more apps
+05-16 01:43:06.407   982 11845 E AGPService: FrameRateManager: iaware strange app type: -1
+05-16 01:43:06.407   982 11845 I AGPService: FrameRateManager: aps-info: new pkgName - com.mars.infra.trace, type - -1
+05-16 01:43:06.408   982 11845 I AGPService: GpuPolicyManager: m_currentPkgName - com.mars.infra.trace
+05-16 01:43:06.550   690   690 D AudioALSAHardware: -getParameters()
+05-16 01:43:06.551   994  2015 D dubaid  : [CpuAppStats.cpp] FindUidEntry# Uid(10357) has not package, maybe it's already uninstalled
+05-16 01:43:06.551   994  2015 E dubaid  : [CpuAppStats.cpp] UpdateUidCpuTime# Failed to find uid entry
+05-16 01:43:06.551  1834  2094 I HwAudioServiceEx: HwAudioHandlerEx receive unknown msg
+05-16 01:43:06.551   994  2015 D dubaid  : [CpuAppStats.cpp] FindUidEntry# Uid(10358) has not package, maybe it's already uninstalled
+05-16 01:43:06.551   994  2015 E dubaid  : [CpuAppStats.cpp] UpdateUidCpuTime# Failed to find uid entry
+05-16 01:43:06.556   994  1230 D dubaid  : [BufferedLogServer.cpp] ReceiveMessage# Received buffered log from dubai_driver-0
+05-16 01:43:06.557   994  1230 D dubaid  : [BufferedLogServer.cpp] ReceiveMessage# Received buffered log from dubai_driver-0
+05-16 01:43:06.566  1094  1176 D AAL     : 05-16 01:43:06.120 BL= 327,ESS= 256, 05-16 01:43:06.137 BL= 337,ESS= 256, 05-16 01:43:06.153 BL= 348,ESS= 256, 
+05-16 01:43:06.579  1834  2170 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 52
+05-16 01:43:06.579  1834  2170 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 68
+05-16 01:43:06.579  1834  2170 D wifiserviceimpl: netmask =16777215
+05-16 01:43:06.584  1094  6920 D AALLightSensor: oldLux=57 [SA:50 LA:49] newLux=57 (oriLux: 51)
+05-16 01:43:06.590  1834  2170 I HwWifiProServiceProxy: pair = Pair{true 10}, Bundle = Bundle[{time=10, arpResult=true}]
+05-16 01:43:06.590  1834  2170 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 63
+05-16 01:43:06.590  1834  2170 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 2
+05-16 01:43:06.590  1834  2170 V HwWifiServiceFactory: get AllImpl object = com.android.server.wifi.HwWifiServiceFactoryImpl@5f30e40
+05-16 01:43:06.591  2569  2812 I HotspotComponent: handleEvent
+05-16 01:43:06.591  2569  2812 I HotspotComponent: handleEvent not handle the event:1121
+05-16 01:43:06.591  2569  2812 I WifiProComponent: default event
+05-16 01:43:06.591  2569  2812 I HotspotComponent: handleEvent
+05-16 01:43:06.591  2569  2812 I HotspotComponent: handleEvent not handle the event:1128
+05-16 01:43:06.591  2569  2846 D HwCHRWifiRSSIGroupSummery: updatArpSummery rssi:-1 HwCHRWifiRSSIGroup [mRssiIndex=4, mRttTcpPackets=0, mRttTcpDuration=0, mRttLanDuration=113780, mRttLanFailures=132, mRttLanSucc=3639, mRttLanMax=949, mRttLanMin=2,mSameFrequency=0,mAdjacentFrequency=0]
+05-16 01:43:06.598  8500 28822 I NetworkKit_CountryCodeBean: pool-5-thread-529|null|com.huawei.hms.framework.network.grs.local.model.CountryCodeBean|init|2|countryCode by ro.hw.country is: cn
+05-16 01:43:06.598  8500 28822 I NetworkKit_CountryCodeBean: pool-5-thread-529|null|com.huawei.hms.framework.network.grs.local.model.CountryCodeBean|<init>|9|get issue_country code from VENDOR_COUNTRY
+05-16 01:43:06.602  8500 28831 I HwMSDPMovementManager: getCurrentMovement type 0
+05-16 01:43:06.602  8500 28831 E HwMSDPMovementManager: mService is null.
+05-16 01:43:06.771  9327  9838 I ContentSensor_PackageUtil: pkgName : com.huawei.android.launcher
+05-16 01:43:06.906  1834  2065 I TrafficMonitor: update:rxPkts:2,txPkts:0,rxBytes:108,txBytes:0
+05-16 01:43:06.906  1834  2065 I TrafficMonitor: gettimer:interval=2000
+05-16 01:43:07.081  9327  9838 I ContentSensor_PackageUtil: pkgName : com.huawei.android.launcher
+05-16 01:43:07.237  1064  8783 I Pged-IPgedBinderService: ****action is 2, pid num is 3***
+05-16 01:43:07.237  1064  8783 I Pged-Freezer: thawPids
+05-16 01:43:07.238  1834  2066 I WificondControl: Noise: 0, Snr: 0, Chload: 0, rssi: -81, txBitrate: 26, rxBitrate: 13, frequency: 2452, UlDelay: 0, currentTxBytes: 444381038, currentTxPackets: 4538655, currentTxFailed: 0, currentRxBytes: 313015667, currentRxPackets: 7055495
+05-16 01:43:07.239  2648  3653 D PgedBinderAdapter: unF_Z ok, pid: [23410, 2282]
+05-16 01:43:07.243  1834  2164 D HuaweiWifiWatchdogStateMachine: nothing to do
+05-16 01:43:07.243  1834  2065 I WiFi_PRO: MSG_RETURN_AP_CURRY_RSSI rssi = -81
+05-16 01:43:07.244  1834  2065 I QosMonitor: queryRtt: rttType = 3
+05-16 01:43:07.244  1834  2166 I HwDualBandManager: handle2gApStrongWifiRssiChange
+05-16 01:43:07.244  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:43:07.244  1834  2164 I HuaweiWifiWatchdogStateMachine: high data flow: protection_counter = 0,  not_detect_counter = 52
+05-16 01:43:07.244  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=4,arg2=10
+05-16 01:43:07.244  1834  2164 I HuaweiWifiWatchdogStateMachine: high data flow scenario: 0 --> 0 rx bytes =5KB
+05-16 01:43:07.244  1834  2065 I QosMonitor: resetRtt: rttType = 3
+05-16 01:43:07.244  1834  2164 I HuaweiWifiWatchdogStateMachine: POta txb txg rxg:0, 8, 0. Lr =0% Totpkt=8
+05-16 01:43:07.244  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:43:07.244  1834  2065 I HwWifiProServiceProxy: ctrlHwWifiNetwork pkgName: WIFIPRO_SERVICE interfaceId: 8
+05-16 01:43:07.244  1834  2065 I QosMonitor: postEventFromNative: msg=100,arg1=0,arg2=10
+05-16 01:43:07.244  1834  2065 I MQoS    : rtt=304,tcpTxPkts=4208015,tcpRxPkts=6329614
+05-16 01:43:07.244  1834 11540 D HwConnectivityServiceEx: set 1000 wlan0 value false
+05-16 01:43:07.245  1834 11540 I MQoS    : QOS_level:0(0),DataDisable;use level-0
+05-16 01:43:07.245  1834 11540 I MQoS    : skip-low-Level:0(0),DataDisable;use level-0
+05-16 01:43:07.246  1834  2164 I HuaweiWifiWatchdogStateMachine: PTcp RTT:304, rtt pkt=4, tcp_rx=0, tcp_tx=0, tcp_reTran=0, rtRate=0
+05-16 01:43:07.246  1834  2164 I HuaweiWifiWatchdogStateMachine: rssi bad, mrssi=-81 < TargetRssi=-72
+05-16 01:43:07.246  1834  2164 I HuaweiWifiWatchdogStateMachine: start computeQosLevel tcpRtt = 304 ,rssi = -81 ,mBestSpeedInPeriod = 37
+05-16 01:43:07.246  1834  2164 I HuaweiWifiWatchdogStateMachine: smoothConsecutiveQosResults, currentQosLevel = 2
+05-16 01:43:07.248   675 26102 I netd    : trafficSwapActiveStatsMap() <0.33ms>
+05-16 01:43:07.250  1086  1179 I HfLooper: als lux = 51.000000 , rawdata1 =199.000000., rawdata1 = 11.000000
+05-16 01:43:07.608  1834  9349 V ActivityManager: Successfully start provider ContentProviderRecord{c52873f u0 com.huawei.android.totemweather/.provider.SharedPreferenceProvider} launchingApp=null caller pid= 2686
+05-16 01:43:07.633   704   786 I hwcomposer: [HWCDisplay] [Display_0 (type:1)] fps:11.692345,dur:1796.05,max:1471.33,min:12.45  
+05-16 01:43:07.706   675 26102 I netd    : trafficSwapActiveStatsMap() <0.34ms>

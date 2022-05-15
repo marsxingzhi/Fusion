@@ -86,43 +86,36 @@ class FusionTransform : Transform() {
         cn.signature = null
 
 
-        val methodNode = MethodNode(Opcodes.ACC_PUBLIC, "<init>", "()V", null, null)
-        cn.methods.add(methodNode)
-        val il = methodNode.instructions
-        il.add(VarInsnNode(Opcodes.ALOAD, 0))
-        il.add(
-            MethodInsnNode(
-                Opcodes.INVOKESPECIAL,
-                APP_COMPACT_ACTIVITY_SUPER_NAME,
-                "<init>",
-                "()V",
-                false
-            )
-        )
-        il.add(InsnNode(Opcodes.RETURN))
-        methodNode.maxStack = 1
-        methodNode.maxLocals = 1
+//        val methodNode = MethodNode(Opcodes.ACC_PUBLIC, "<init>", "()V", null, null)
+//        cn.methods.add(methodNode)
+//        val il = methodNode.instructions
+//        il.add(VarInsnNode(Opcodes.ALOAD, 0))
+//        il.add(
+//            MethodInsnNode(
+//                Opcodes.INVOKESPECIAL,
+//                APP_COMPACT_ACTIVITY_SUPER_NAME,
+//                "<init>",
+//                "()V",
+//                false
+//            )
+//        )
+//        il.add(InsnNode(Opcodes.RETURN))
+//        methodNode.maxStack = 1
+//        methodNode.maxLocals = 1
 
         // 只考虑一个的情况
         val fusionNode = FusionManager.fusionNodeList[0]
         fusionNode.originField.values.forEach {
-//            cn.fields.add(it)
+            cn.fields.add(it)
         }
         fusionNode.remapField.values.forEach {
-//            cn.fields.add(it)
+            cn.fields.add(it)
         }
-        // TODO Fusion_androidx_appcompat_app_AppCompatActivity.super.onCreate(bundle);？？？
-        // MainActivity.super.onCreate(savedInstanceState); 怎么多了MainActivity？？？
-        fusionNode.originMethod.values.forEach {  // 所有的实例方法，都需要执行ALOAD_0指令，即this
-
-//            if (it.name == "onCreate" && it.instructions.size() > 0) {
-//                val temp = it.instructions[0]
-//                it.instructions.remove(temp)
-//            }
-//            cn.methods.add(it)
+        fusionNode.originMethod.values.forEach {
+            cn.methods.add(it)
         }
         fusionNode.remapMethod.values.forEach {
-//            cn.methods.add(it)
+            cn.methods.add(it)
         }
 
         cn.accept(cw)
