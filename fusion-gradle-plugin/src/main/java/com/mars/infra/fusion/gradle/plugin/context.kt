@@ -7,3 +7,5 @@ const val PACKAGE_NAME = "com/mars/infra/fusion/annotations"
 const val ANNOTATION_FUSION = "L${PACKAGE_NAME}/Fusion;"
 const val GENERATE_PACKAGE_NAME = "com/mars/infra/generate"
 
+const val APP_COMPACT_ACTIVITY_SUPER_NAME = "androidx/appcompat/app/AppCompatActivity"
+
