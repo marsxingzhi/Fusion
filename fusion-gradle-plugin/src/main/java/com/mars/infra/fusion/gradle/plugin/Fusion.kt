@@ -2,6 +2,7 @@ package com.mars.infra.fusion.gradle.plugin
 
 import com.mars.infra.fusion.gradle.plugin.model.FusionNode
 import com.mars.infra.fusion.gradle.plugin.visitor.FusionClassVisitor
+import org.objectweb.asm.ClassVisitor
 import org.objectweb.asm.ClassWriter
 import org.objectweb.asm.Opcodes
 
@@ -48,7 +49,19 @@ object Fusion {
             visitMaxs(1, 1)
             visitEnd()
         }
-        cw.visitEnd()
+        fusionClassVisitor.visitEnd()
         return cw.toByteArray()
+    }
+
+    /**
+     * 1. 写入私有方法
+     * 2. 非私有方法的写入，不会修改非私有方法的方法名和描述符，而是新建一个方法，在非私有方法中调用该新建的方法
+     * 3. 字段的写入
+     */
+    fun visitEnd(classVisitor: ClassVisitor) {
+        val fusionNode = fusionNodeList[0]
+        fusionNode.remapMethod.values.forEach {
+            it.accept(classVisitor)
+        }
     }
 }
