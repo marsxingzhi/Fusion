@@ -9,8 +9,6 @@ import com.mars.infra.fusion.gradle.plugin.core.process
 import com.mars.infra.fusion.gradle.plugin.visitor.RemapClassVisitor
 import org.objectweb.asm.ClassReader
 import org.objectweb.asm.ClassWriter
-import org.objectweb.asm.Opcodes
-import org.objectweb.asm.tree.*
 import java.io.File
 
 /**
@@ -36,7 +34,7 @@ class FusionTransform : Transform() {
             onPostTransform(transformInvocation)
         }) { bytes: ByteArray ->
             val cr = ClassReader(bytes)
-            FusionManager.filter(cr.className).no {
+            Fusion.filter(cr.className).no {
                 val cw = ClassWriter(cr, 0)
                 val rootClassVisitor = RemapClassVisitor(cw)
                 cr.accept(rootClassVisitor, ClassReader.SKIP_DEBUG or ClassReader.SKIP_FRAMES)
@@ -76,14 +74,18 @@ class FusionTransform : Transform() {
             file.createNewFile()
         }
 
-        val cw = ClassWriter(ClassWriter.COMPUTE_FRAMES)
+        Fusion.generateFusionClass()?.let {
+            file.writeBytes(it)
+        }
 
-        val cn = ClassNode()
-        cn.version = Opcodes.V1_8
-        cn.access = Opcodes.ACC_PUBLIC
-        cn.name = "$GENERATE_PACKAGE_NAME/Fusion_androidx_appcompat_app_AppCompatActivity"
-        cn.superName = APP_COMPACT_ACTIVITY_SUPER_NAME
-        cn.signature = null
+//        val cw = ClassWriter(ClassWriter.COMPUTE_FRAMES)
+//
+//        val cn = ClassNode()
+//        cn.version = Opcodes.V1_8
+//        cn.access = Opcodes.ACC_PUBLIC
+//        cn.name = "$GENERATE_PACKAGE_NAME/Fusion_androidx_appcompat_app_AppCompatActivity"
+//        cn.superName = APP_COMPACT_ACTIVITY_SUPER_NAME
+//        cn.signature = null
 
 
 //        val methodNode = MethodNode(Opcodes.ACC_PUBLIC, "<init>", "()V", null, null)
@@ -104,21 +106,22 @@ class FusionTransform : Transform() {
 //        methodNode.maxLocals = 1
 
         // 只考虑一个的情况
-        val fusionNode = FusionManager.fusionNodeList[0]
-        fusionNode.originField.values.forEach {
-            cn.fields.add(it)
-        }
-        fusionNode.remapField.values.forEach {
-            cn.fields.add(it)
-        }
-        fusionNode.originMethod.values.forEach {
-            cn.methods.add(it)
-        }
-        fusionNode.remapMethod.values.forEach {
-            cn.methods.add(it)
-        }
+//        val fusionNode = FusionManager.fusionNodeList[0]
+//        fusionNode.originField.values.forEach {
+//            cn.fields.add(it)
+//        }
+//        fusionNode.remapField.values.forEach {
+//            cn.fields.add(it)
+//        }
+//        fusionNode.originMethod.values.forEach {
+//            cn.methods.add(it)
+//
+//        }
+//        fusionNode.remapMethod.values.forEach {
+//            cn.methods.add(it)
+//        }
 
-        cn.accept(cw)
-        file.writeBytes(cw.toByteArray())
+//        cn.accept(cw)
+//        file.writeBytes(cw.toByteArray())
     }
 }

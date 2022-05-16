@@ -1,6 +1,6 @@
 package com.mars.infra.fusion.gradle.plugin.visitor
 
-import com.mars.infra.fusion.gradle.plugin.FusionManager
+import com.mars.infra.fusion.gradle.plugin.Fusion
 import com.mars.infra.fusion.gradle.plugin.model.FusionNode
 import org.objectweb.asm.ClassVisitor
 import org.objectweb.asm.MethodVisitor
@@ -25,7 +25,7 @@ class RemapClassVisitor(classVisitor: ClassVisitor) : ClassVisitor(Opcodes.ASM9,
         interfaces: Array<out String>?
     ) {
         // TODO 这里需要屏蔽@Fusion类
-        FusionManager.fusionNodeList.forEach {
+        Fusion.fusionNodeList.forEach {
             if (it.fusionData.target == superName
                 && name != it.remapClassName.internalName()) {  // cannot extend itself
                 needReMap = true

@@ -76,7 +76,7 @@ object FusionCollector {
                     )
                     classNode.parseNode(fusionNode)
                     fusionNode.print()
-                    FusionManager.fusionNodeList.add(fusionNode)
+                    Fusion.fusionNodeList.add(fusionNode)
                 }
             }
         }
