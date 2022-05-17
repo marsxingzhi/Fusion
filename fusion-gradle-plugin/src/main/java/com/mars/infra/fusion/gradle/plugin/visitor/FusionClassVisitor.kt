@@ -10,6 +10,20 @@ import org.objectweb.asm.Opcodes
  */
 class FusionClassVisitor(private val classVisitor: ClassVisitor): ClassVisitor(Opcodes.ASM9, classVisitor) {
 
+    private lateinit var className: String
+
+    override fun visit(
+        version: Int,
+        access: Int,
+        name: String,
+        signature: String?,
+        superName: String?,
+        interfaces: Array<out String>?
+    ) {
+        className = name
+        super.visit(version, access, name, signature, superName, interfaces)
+    }
+
     override fun visitMethod(
         access: Int,
         name: String?,
@@ -21,7 +35,7 @@ class FusionClassVisitor(private val classVisitor: ClassVisitor): ClassVisitor(O
     }
 
     override fun visitEnd() {
-        Fusion.visitEnd(classVisitor)
+        Fusion.visitEnd(classVisitor, className)
         super.visitEnd()
     }
 }

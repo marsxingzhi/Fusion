@@ -14,11 +14,11 @@ import com.mars.infra.fusion.annotations.Fusion
 @Fusion(target = AppCompatActivity::class)
 class FusionLogActivity : AppCompatActivity() {
 
-    private var name: String? = null
-    private var age = 18
-    private val tag = "FusionLogActivity"
+//    private var name: String? = null
+//    private var age = 18
+//    private val tag = "FusionLogActivity"
 
-    var versionName: String? = null
+//    var versionName: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

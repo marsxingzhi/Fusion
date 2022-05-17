@@ -192,6 +192,16 @@ fun ClassNode.parseNode(fusionNode: FusionNode) {
                 methodNode.instructions.remove(it)
             }
         }
+        // 修改方法名
+        val isAbstract = methodNode.access and Opcodes.ACC_ABSTRACT != 0
+        val isNative = methodNode.access and Opcodes.ACC_NATIVE != 0
+        if (!isAbstract
+            && !isNative
+            && methodNode.name != "<clinit>"
+            && methodNode.name != "<init>"
+        ) {
+            methodNode.name = methodNode.name.convertFieldName(fusionNode.originClass)
+        }
     }
 }
 
