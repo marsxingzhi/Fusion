@@ -72,25 +72,26 @@ object Fusion {
             val node = it.value
             node.accept(classVisitor)
 
-//            val key = it.key
-//            val splits = key.split("#")
-//            val originName = splits[0]
-//            val desc = splits[1]
-//            // 创建方法
-//            val mv = classVisitor.visitMethod(node.access, originName, desc, null, null)
-//            val generateAdapter = GeneratorAdapter(mv, node.access, originName, desc)
-//
-//            generateAdapter.generateCode(className, node)
-//
-//            generateAdapter.returnValue()
-//            generateAdapter.visitEnd()
+            val key = it.key
+            val splits = key.split("#")
+            val originName = splits[0]
+            val desc = splits[1]
+            // 创建方法
+            val mv = classVisitor.visitMethod(node.access, originName, desc, null, null)
+            val generateAdapter = GeneratorAdapter(mv, node.access, originName, desc)
+
+            generateAdapter.generateCode(className, node)
+            generateAdapter.returnValue()
+            generateAdapter.visitEnd()
         }
     }
 }
 
 // TODO 默认都是实例方法
 fun GeneratorAdapter.generateCode(className: String, node: MethodNode) {
-//    loadThis()  // ALOAD_0
-//    loadArgs()  // 加载方法参数
-//    visitMethodInsn(Opcodes.INVOKEVIRTUAL, className, node.name, node.desc, false)
+    println("generateCode---className: $className, methodName: ${node.name}")
+    loadThis()  // ALOAD_0
+    loadArgs()  // 加载方法参数
+    // TODO 这里难道不该使用INVOKESPECIAL？我使用了INVOKESPEICAL，编译报错了，INVOKEVIRTUAL反而通过了，搞不懂！
+    visitMethodInsn(Opcodes.INVOKEVIRTUAL, className, node.name, node.desc, false)
 }
