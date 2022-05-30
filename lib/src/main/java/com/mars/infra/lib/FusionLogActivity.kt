@@ -21,20 +21,20 @@ class FusionLogActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.e("gy", "onCreate invoke")
+        Log.e("mars", "onCreate invoke")
         execute()
     }
 
 
     override fun onResume() {
         super.onResume()
-        Log.e("gy", "onResume invoke")
+        Log.e("mars", "onResume invoke")
     }
 
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.e("gy", "onDestroy invoke")
+        Log.e("mars", "onDestroy invoke")
     }
 
 
@@ -44,7 +44,6 @@ class FusionLogActivity : AppCompatActivity() {
      * LDC "execute"
      * MethodInsnNode(INVOKESPECIAL, "com/mars/infra/lib/FusionLogActivity", "checkLoginStatus", "(Ljava/lang/String;)V")
      *
-     * // TODO 我大概也知道为啥要remapp desc了，如果desc中也有FusionLogActivity呢
      */
     private fun execute() {
         Thread.sleep(100)
@@ -57,6 +56,6 @@ class FusionLogActivity : AppCompatActivity() {
     }
 
     private fun checkLoginStatus(status: String) {
-        Log.e("gy", "检查登录状态, status = $status")
+        Log.e("mars", "检查登录状态, status = $status")
     }
 }
